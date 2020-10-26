@@ -1,13 +1,22 @@
-import { Ionicons } from '@expo/vector-icons';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createStackNavigator } from '@react-navigation/stack';
-import * as React from 'react';
+import { Ionicons } from "@expo/vector-icons";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createStackNavigator } from "@react-navigation/stack";
+import * as React from "react";
 
-import Colors from '../constants/Colors';
-import useColorScheme from '../hooks/useColorScheme';
-import TabOneScreen from '../screens/TabOneScreen';
-import TabTwoScreen from '../screens/TabTwoScreen';
-import { BottomTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+import Colors from "../constants/Colors";
+import useColorScheme from "../hooks/useColorScheme";
+import ChallengesTab from "../screens/ChallengesTab";
+import Challenge from "../screens/ChallengeScreen";
+import Game from "../screens/GameScreen";
+import ActivityTabScreen from "../screens/ActivityTabScreen";
+import {
+  BottomTabParamList,
+  TabOneParamList,
+  ActivityTabParamList,
+  TabThreeParamList,
+} from "../types";
+import { Feather } from "@expo/vector-icons";
+import GameSummary from "../screens/GameSummaryScreen";
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
@@ -16,20 +25,34 @@ export default function BottomTabNavigator() {
 
   return (
     <BottomTab.Navigator
-      initialRouteName="TabOne"
-      tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
+      initialRouteName="Challenges"
+      tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}
+    >
       <BottomTab.Screen
-        name="TabOne"
+        name="Challenges"
         component={TabOneNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => (
+            <Feather name="map-pin" color={color} size={20} />
+          ),
         }}
       />
       <BottomTab.Screen
-        name="TabTwo"
-        component={TabTwoNavigator}
+        name="Activity"
+        component={ActivityTabNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => (
+            <Feather name="activity" color={color} size={20} />
+          ),
+        }}
+      />
+      <BottomTab.Screen
+        name="Settings"
+        component={TabThreeNavigator}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Feather name="settings" color={color} size={20} />
+          ),
         }}
       />
     </BottomTab.Navigator>
@@ -49,25 +72,35 @@ const TabOneStack = createStackNavigator<TabOneParamList>();
 function TabOneNavigator() {
   return (
     <TabOneStack.Navigator>
-      <TabOneStack.Screen
-        name="TabOneScreen"
-        component={TabOneScreen}
-        options={{ headerTitle: 'Tab One Title' }}
-      />
+      <TabOneStack.Screen name="Challenges" component={ChallengesTab} />
+      <TabOneStack.Screen name="Challenge" component={Challenge} />
     </TabOneStack.Navigator>
   );
 }
 
-const TabTwoStack = createStackNavigator<TabTwoParamList>();
+const ActivityTabStack = createStackNavigator<ActivityTabParamList>();
 
-function TabTwoNavigator() {
+function ActivityTabNavigator() {
   return (
-    <TabTwoStack.Navigator>
-      <TabTwoStack.Screen
-        name="TabTwoScreen"
-        component={TabTwoScreen}
-        options={{ headerTitle: 'Tab Two Title' }}
+    <ActivityTabStack.Navigator>
+      <ActivityTabStack.Screen
+        name="ActivityTabScreen"
+        component={ActivityTabScreen}
       />
-    </TabTwoStack.Navigator>
+      <ActivityTabStack.Screen
+        name="GameSummaryScreen"
+        component={GameSummary}
+      />
+    </ActivityTabStack.Navigator>
+  );
+}
+
+const TabThreeStack = createStackNavigator<TabThreeParamList>();
+
+function TabThreeNavigator() {
+  return (
+    <TabThreeStack.Navigator>
+      <TabThreeStack.Screen name="SettingsTabScreen" component={ActivityTab} />
+    </TabThreeStack.Navigator>
   );
 }

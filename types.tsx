@@ -1,17 +1,40 @@
+import GameMode from "./constants/GameMode.enum";
+import Continents from "./constants/Continents";
+
 export type RootStackParamList = {
+  Game: undefined;
   Root: undefined;
   NotFound: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Challenges: undefined;
+  Activity: undefined;
+  Settings: undefined;
 };
 
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  Challenges: undefined;
+  Challenge: { continent: string };
+  Game: { mode: GameMode; name: string };
+  GameSummary: { id: string };
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type ActivityTabParamList = {
+  ActivityTabScreen: undefined;
+  GameSummaryScreen: undefined;
+};
+
+export type TabThreeParamList = {
+  SettingsTabScreen: undefined;
+};
+
+export type Country = {
+  name: string;
+  capital: string;
+  continent: string;
+};
+
+export type Answers = {
+  [key: string]: string;
 };

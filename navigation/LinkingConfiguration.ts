@@ -1,24 +1,30 @@
-import * as Linking from 'expo-linking';
+import * as Linking from "expo-linking";
 
 export default {
-  prefixes: [Linking.makeUrl('/')],
+  prefixes: [Linking.makeUrl("/")],
   config: {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Challenges: {
             screens: {
-              TabOneScreen: 'one',
+              ChallengesTabScreen: "challenges",
             },
           },
-          TabTwo: {
+          Game: {
             screens: {
-              TabTwoScreen: 'two',
+              GameScreen: "game",
+              GameSummaryScreen: "game-summary",
+            },
+          },
+          Activity: {
+            screens: {
+              ActivityTabScreen: "activity",
             },
           },
         },
       },
-      NotFound: '*',
+      NotFound: "*",
     },
   },
 };
