@@ -49,8 +49,8 @@ export default function GameScreen({ navigation, route }: Props) {
 
   const completeGame = useCallback(async () => {
     const id = await storeAnswers(answers);
-    navigation.navigate("Root", {
-      screen: "Activity",
+    navigation.navigate("Summary", {
+      id,
     });
   }, [answers]);
 

@@ -13,16 +13,19 @@ export type BottomTabParamList = {
   Settings: undefined;
 };
 
+export type GameStackParamList = {
+  Game: { mode: GameMode; name: string };
+  Summary: { id: string };
+};
+
 export type TabOneParamList = {
   Challenges: undefined;
   Challenge: { continent: string };
   Game: { mode: GameMode; name: string };
-  GameSummary: { id: string };
 };
 
 export type ActivityTabParamList = {
   ActivityTabScreen: undefined;
-  GameSummaryScreen: undefined;
 };
 
 export type TabThreeParamList = {

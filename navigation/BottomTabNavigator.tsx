@@ -7,7 +7,6 @@ import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
 import ChallengesTab from "../screens/ChallengesTab";
 import Challenge from "../screens/ChallengeScreen";
-import Game from "../screens/GameScreen";
 import ActivityTabScreen from "../screens/ActivityTabScreen";
 import {
   BottomTabParamList,
@@ -100,7 +99,10 @@ const TabThreeStack = createStackNavigator<TabThreeParamList>();
 function TabThreeNavigator() {
   return (
     <TabThreeStack.Navigator>
-      <TabThreeStack.Screen name="SettingsTabScreen" component={ActivityTab} />
+      <TabThreeStack.Screen
+        name="SettingsTabScreen"
+        component={ActivityTabScreen}
+      />
     </TabThreeStack.Navigator>
   );
 }
