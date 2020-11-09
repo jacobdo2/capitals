@@ -11,7 +11,13 @@ export default function GameStackNavigation() {
   return (
     <GameStack.Navigator>
       <GameStack.Screen name="Game" component={GameScreen} />
-      <GameStack.Screen name="Summary" component={GameSummaryScreen} />
+      <GameStack.Screen
+        name="Summary"
+        component={GameSummaryScreen}
+        options={{
+          headerLeft: () => undefined,
+        }}
+      />
     </GameStack.Navigator>
   );
 }

@@ -6,6 +6,8 @@ import { Text, View } from "../components/Themed";
 import { TabOneParamList } from "../types";
 import Continents from "../constants/Continents";
 import GameMode from "../constants/GameMode.enum";
+import { useDispatch, useSelector } from "react-redux";
+import { setContinent } from "../redux/game/action";
 
 type Props = {
   navigation: StackNavigationProp<TabOneParamList, "Challenge">;
@@ -14,6 +16,7 @@ type Props = {
 
 export default function ChallangeScreen({ navigation, route }: Props) {
   const { continent } = route.params;
+  const dispatch = useDispatch();
 
   return (
     <View style={styles.banner}>
@@ -24,10 +27,8 @@ export default function ChallangeScreen({ navigation, route }: Props) {
       <Pressable
         style={styles.startButtonContainer}
         onPressOut={() => {
-          navigation.navigate("Game", {
-            mode: GameMode.CONTINENT,
-            name: continent,
-          });
+          navigation.navigate("Game");
+          dispatch(setContinent(continent));
         }}
       >
         <View style={styles.startButton}>

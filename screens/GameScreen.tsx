@@ -2,21 +2,17 @@ import React, { useEffect, useState, useCallback } from "react";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { RouteProp } from "@react-navigation/native";
 import { StyleSheet, Text, View, SafeAreaView, Pressable } from "react-native";
-import CountryItem from "../components/CountryItem";
-import {
-  Answers,
-  Country,
-  TabOneParamList,
-  ActivityTabParamList,
-} from "../types";
+import EditableCountryItem from "../components/EditableCountryItem";
+import { Answers, Country, TabOneParamList } from "../types";
 import Continents from "../constants/Continents";
 import differenceInSeconds from "date-fns/differenceInSeconds";
 import shuffleCountries from "../utils/shuffleCountries";
 import secondsToTimer from "../utils/secondsToTimer";
-import storeAnswers from "../utils/storeAnswers";
+import storeSummary from "../utils/storeSummary";
 import { useDimensions } from "@react-native-community/hooks";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scrollview";
 import { Form as AutoFocusForm } from "react-native-autofocus";
+import { useSelector } from "react-redux";
 
 type Props = {
   navigation: StackNavigationProp<any, "Game">;
@@ -24,7 +20,9 @@ type Props = {
 };
 
 export default function GameScreen({ navigation, route }: Props) {
-  const name = "Europe";
+  const state = useSelector((state) => state);
+  const { continent: continentName } = useSelector((state) => state.game);
+
   const { height } = useDimensions().window;
   const [bannerLabel, setBannerLabel] = useState("");
   const [answers, setAnswers] = useState<Answers>({});
@@ -48,11 +46,15 @@ export default function GameScreen({ navigation, route }: Props) {
   };
 
   const completeGame = useCallback(async () => {
-    const id = await storeAnswers(answers);
+    const id = await storeSummary({
+      continent: continentName,
+      answers,
+      duration: secondsElapsed,
+    });
     navigation.navigate("Summary", {
       id,
     });
-  }, [answers]);
+  }, [answers, secondsElapsed]);
 
   /** Timer */
   useEffect(() => {
@@ -67,8 +69,8 @@ export default function GameScreen({ navigation, route }: Props) {
 
   /** Set country list */
   useEffect(() => {
-    setCountries(shuffleCountries(Continents[name]));
-  }, []);
+    continentName && setCountries(shuffleCountries(Continents[continentName]));
+  }, [continentName]);
 
   /** Update focused country */
   useEffect(() => {
@@ -87,7 +89,7 @@ export default function GameScreen({ navigation, route }: Props) {
         <AutoFocusForm>
           {countries.map((country) => {
             return (
-              <CountryItem
+              <EditableCountryItem
                 country={country}
                 handleAnswer={handleAnswer}
                 handleRequestNext={handleRequestNext}

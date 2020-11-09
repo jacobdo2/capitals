@@ -1,51 +1,35 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
+import { View, StyleSheet, Text } from "react-native";
 import { Country } from "../types";
-import { Pressable, StyleSheet } from "react-native";
-import { Text, View } from "../components/Themed";
-import { TextInput } from "react-native-gesture-handler";
 
 type CountryItemProps = {
+  answer: string;
   country: Country;
-  handleAnswer: (country: Country, text: string) => void;
-  handleRequestNext: (country: Country) => void;
-  isFocused: boolean;
-  isLast: boolean;
-  setFocused: (country: Country) => void;
 };
 
-export default function CountryItem({
-  country,
-  handleAnswer,
-  handleRequestNext,
-  isFocused,
-  isLast,
-  setFocused,
-}: CountryItemProps) {
-  let inputRef: any = useRef();
+export default function CountryItem({ answer, country }: CountryItemProps) {
+  const [isCorrect, setIsCorrect] = React.useState(false);
 
-  useEffect(() => {
-    isFocused && inputRef.current.focus();
-  }, [isFocused]);
+  React.useEffect(() => {
+    if (country && country.capital === answer) {
+      setIsCorrect(true);
+    }
+  }, [answer, country]);
 
   return (
-    <Pressable
-      onPress={() => setFocused(country)}
-      style={[styles.country, isFocused ? styles.countryFocused : {}]}
-      key={country.name}
-    >
+    <View style={styles.country}>
       <Text style={styles.countrylabel}>{country.name}</Text>
-      <View>
-        <TextInput
-          style={[styles.input, isFocused ? styles.inputFocused : {}]}
-          ref={inputRef}
-          onChangeText={(text: string) => handleAnswer(country, text)}
-          returnKeyType={isLast ? "done" : "next"}
-          blurOnSubmit={false}
-          onFocus={() => setFocused(country)}
-          onSubmitEditing={() => handleRequestNext(country)}
-        />
+      <View style={styles.answerContainer}>
+        {answer && answer !== "" && (
+          <Text style={[styles.answer, isCorrect ? styles.answerCorrect : []]}>
+            {answer}
+          </Text>
+        )}
+        {!isCorrect && (
+          <Text style={styles.correctAnswer}>{country.capital}</Text>
+        )}
       </View>
-    </Pressable>
+    </View>
   );
 }
 
@@ -65,10 +49,23 @@ const styles = StyleSheet.create({
     fontSize: 17,
     fontWeight: "bold",
   },
-  input: {
-    backgroundColor: "white",
+  answerContainer: {
+    display: "flex",
+    flexDirection: "row",
   },
-  inputFocused: {
-    backgroundColor: "#FAF7F7",
+  answer: {
+    fontSize: 13,
+    color: "#FF2D55",
+    textDecorationLine: "line-through",
+    textDecorationStyle: "solid",
+    marginRight: 8,
+  },
+  answerCorrect: {
+    color: "#34C759",
+    textDecorationLine: "none",
+  },
+  correctAnswer: {
+    fontSize: 13,
+    color: "#8E8E93",
   },
 });

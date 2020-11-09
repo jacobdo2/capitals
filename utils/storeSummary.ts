@@ -1,9 +1,9 @@
-import { Answers } from "../types";
+import { Summary } from "../types";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import uuidv4 from "uuid/v4";
 import { LocalStorageKey } from "../constants/LocalStorage.enum";
 
-export default async function storeAnswers(answers: Answers): Promise<string> {
+export default async function storeAnswers(answers: Summary): Promise<string> {
   const id = uuidv4();
   const existingAnswers =
     (await AsyncStorage.getItem(LocalStorageKey.ANSWERS)) || "{}";

@@ -21,7 +21,7 @@ export type GameStackParamList = {
 export type TabOneParamList = {
   Challenges: undefined;
   Challenge: { continent: string };
-  Game: { mode: GameMode; name: string };
+  Game: undefined;
 };
 
 export type ActivityTabParamList = {
@@ -40,4 +40,10 @@ export type Country = {
 
 export type Answers = {
   [key: string]: string;
+};
+
+export type Summary = {
+  duration: number;
+  continent: string;
+  answers: Answers;
 };
