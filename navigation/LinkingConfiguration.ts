@@ -4,25 +4,29 @@ export default {
   prefixes: [Linking.makeUrl("/")],
   config: {
     screens: {
-      Root: {
+      Home: {
         screens: {
           Challenges: {
             screens: {
-              ChallengesTabScreen: "challenges",
-            },
-          },
-          Game: {
-            screens: {
-              GameScreen: "game",
-              GameSummaryScreen: "game-summary",
+              Challenges: "challenges",
+              Challenge: "challenge/:continent",
             },
           },
           Activity: {
             screens: {
-              ActivityTabScreen: "activity",
+              Activity: "activity",
             },
           },
-        },
+          Settings: {
+            screens: {
+              Settings: "settings",
+            },
+          },
+        }
+      },
+      Game: {
+        Game: "game",
+        Summary: "game-summary",
       },
       NotFound: "*",
     },

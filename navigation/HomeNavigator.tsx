@@ -9,17 +9,17 @@ import ChallengesTab from "../screens/ChallengesTab";
 import Challenge from "../screens/ChallengeScreen";
 import ActivityTabScreen from "../screens/ActivityTabScreen";
 import {
-  BottomTabParamList,
   TabOneParamList,
   ActivityTabParamList,
   TabThreeParamList,
+  HomeNavigatorParamList,
 } from "../types";
 import { Feather } from "@expo/vector-icons";
 import GameSummary from "../screens/GameSummaryScreen";
 
-const BottomTab = createBottomTabNavigator<BottomTabParamList>();
+const BottomTab = createBottomTabNavigator<HomeNavigatorParamList>();
 
-export default function BottomTabNavigator() {
+export default function HomeNavigator() {
   const colorScheme = useColorScheme();
 
   return (
@@ -83,12 +83,8 @@ function ActivityTabNavigator() {
   return (
     <ActivityTabStack.Navigator>
       <ActivityTabStack.Screen
-        name="ActivityTabScreen"
+        name="Activity"
         component={ActivityTabScreen}
-      />
-      <ActivityTabStack.Screen
-        name="GameSummaryScreen"
-        component={GameSummary}
       />
     </ActivityTabStack.Navigator>
   );
@@ -100,7 +96,7 @@ function TabThreeNavigator() {
   return (
     <TabThreeStack.Navigator>
       <TabThreeStack.Screen
-        name="SettingsTabScreen"
+        name="Settings"
         component={ActivityTabScreen}
       />
     </TabThreeStack.Navigator>

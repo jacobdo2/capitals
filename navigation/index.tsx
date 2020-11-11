@@ -9,7 +9,7 @@ import { ColorSchemeName } from "react-native";
 
 import NotFoundScreen from "../screens/NotFoundScreen";
 import { RootStackParamList } from "../types";
-import BottomTabNavigator from "./BottomTabNavigator";
+import HomeNavigator from "./HomeNavigator";
 import GameNavigator from "./GameNavigator";
 import LinkingConfiguration from "./LinkingConfiguration";
 
@@ -37,7 +37,7 @@ const Stack = createStackNavigator<RootStackParamList>();
 function RootNavigator() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Root" component={BottomTabNavigator} />
+      <Stack.Screen name="Home" component={HomeNavigator} />
       <Stack.Screen name="Game" component={GameNavigator} />
       <Stack.Screen
         name="NotFound"
