@@ -3,11 +3,11 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import GameScreen from "../screens/GameScreen";
 import GameSummaryScreen from "../screens/GameSummaryScreen";
-import { GameStackParamList } from "../types";
+import { GameNavigatorParamList } from "../types";
 
-const GameStack = createStackNavigator<GameStackParamList>();
+const GameStack = createStackNavigator<GameNavigatorParamList>();
 
-export default function GameStackNavigation() {
+export default function GameNavigator() {
   return (
     <GameStack.Navigator>
       <GameStack.Screen name="Game" component={GameScreen} />

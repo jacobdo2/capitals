@@ -3,17 +3,17 @@ import Continents from "./constants/Continents";
 
 export type RootStackParamList = {
   Game: undefined;
-  Root: undefined;
+  Home: undefined;
   NotFound: undefined;
 };
 
-export type BottomTabParamList = {
+export type HomeNavigatorParamList = {
   Challenges: undefined;
   Activity: undefined;
   Settings: undefined;
 };
 
-export type GameStackParamList = {
+export type GameNavigatorParamList = {
   Game: { mode: GameMode; name: string };
   Summary: { id: string };
 };
@@ -25,11 +25,11 @@ export type TabOneParamList = {
 };
 
 export type ActivityTabParamList = {
-  ActivityTabScreen: undefined;
+  Activity: undefined;
 };
 
 export type TabThreeParamList = {
-  SettingsTabScreen: undefined;
+  Settings: undefined;
 };
 
 export type Country = {
