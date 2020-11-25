@@ -2,6 +2,8 @@ import * as React from "react";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { RouteProp } from "@react-navigation/native";
 import { Pressable, StyleSheet } from "react-native";
+import MapView from 'react-native-maps';
+
 import { Text, View } from "../components/Themed";
 import { TabOneParamList } from "../types";
 import Continents from "../constants/Continents";
@@ -20,6 +22,7 @@ export default function ChallangeScreen({ navigation, route }: Props) {
 
   return (
     <View style={styles.banner}>
+    <MapView style={styles.mapStyle} />
       <Text style={styles.bannerTitle}>{route.params.continent}</Text>
       <Text style={styles.bannerCaption}>
         {continent && Continents[continent].length} countries
@@ -76,5 +79,9 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     textTransform: "uppercase",
     letterSpacing: 1,
+  },
+  mapStyle: {
+    width: 200,
+    height: 200,
   },
 });
