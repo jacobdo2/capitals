@@ -13,7 +13,7 @@ export default function ChallengesScreen({ navigation }) {
         {Object.keys(Continents).map((continent: string) => (
           <Pressable
             key={continent}
-            onPressOut={() =>
+            onPress={() =>
               navigation.navigate("Challenge", {
                 continent,
               })

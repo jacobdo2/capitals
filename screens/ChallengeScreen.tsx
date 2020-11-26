@@ -3,11 +3,8 @@ import { StackNavigationProp } from "@react-navigation/stack";
 import { RouteProp } from "@react-navigation/native";
 import { Platform, Pressable, StyleSheet } from "react-native";
 
-if (Platform.OS === 'android' || Platform.OS === 'ios') {
-  const MapView = require('react-native-maps');
-}
-
 import { Text, View } from "../components/Themed";
+import WorldMap from '../components/WorldMap';
 import { TabOneParamList } from "../types";
 import Continents from "../constants/Continents";
 import GameMode from "../constants/GameMode.enum";
@@ -25,14 +22,14 @@ export default function ChallangeScreen({ navigation, route }: Props) {
 
   return (
     <View style={styles.banner}>
-    { (Platform.OS === 'android' || Platform.OS === 'ios') && <MapView style={styles.mapStyle} />}
+      <WorldMap />
       <Text style={styles.bannerTitle}>{route.params.continent}</Text>
       <Text style={styles.bannerCaption}>
         {continent && Continents[continent].length} countries
       </Text>
       <Pressable
         style={styles.startButtonContainer}
-        onPressOut={() => {
+        onPress={() => {
           navigation.navigate("Game");
           dispatch(setContinent(continent));
         }}
@@ -60,8 +57,10 @@ const styles = StyleSheet.create({
     fontSize: 34,
     fontWeight: "bold",
     marginBottom: 8,
+    color: "white",
   },
   bannerCaption: {
+    color: "white",
     fontSize: 16,
   },
   startButtonContainer: {},
@@ -82,9 +81,5 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     textTransform: "uppercase",
     letterSpacing: 1,
-  },
-  mapStyle: {
-    width: 200,
-    height: 200,
   },
 });
