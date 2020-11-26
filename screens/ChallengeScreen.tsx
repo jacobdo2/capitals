@@ -1,8 +1,11 @@
 import * as React from "react";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { RouteProp } from "@react-navigation/native";
-import { Pressable, StyleSheet } from "react-native";
-import MapView from 'react-native-maps';
+import { Platform, Pressable, StyleSheet } from "react-native";
+
+if (Platform.OS === 'android' || Platform.OS === 'ios') {
+  const MapView = require('react-native-maps');
+}
 
 import { Text, View } from "../components/Themed";
 import { TabOneParamList } from "../types";
@@ -22,7 +25,7 @@ export default function ChallangeScreen({ navigation, route }: Props) {
 
   return (
     <View style={styles.banner}>
-    <MapView style={styles.mapStyle} />
+    { (Platform.OS === 'android' || Platform.OS === 'ios') && <MapView style={styles.mapStyle} />}
       <Text style={styles.bannerTitle}>{route.params.continent}</Text>
       <Text style={styles.bannerCaption}>
         {continent && Continents[continent].length} countries
