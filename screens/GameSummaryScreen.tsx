@@ -28,7 +28,7 @@ export default function GameSummaryScreen({ navigation, route }) {
       return;
     }
 
-    setCountries(Continents[summary.continent]);
+    setCountries(Continents[summary.continent].countries);
   }, [summary]);
 
   return (

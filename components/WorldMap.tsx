@@ -1,10 +1,10 @@
 import React from "react";
 import { View, StyleSheet, Text, Pressable } from "react-native";
 
-export default function WorldMap(style, region) {
+export default function WorldMap(region) {
   return (
     <View style={styles.container}>
-        <View styles={styles.mapView}>
+        <View style={styles.mapView}>
         </View>
     </View>
   );
@@ -13,9 +13,11 @@ export default function WorldMap(style, region) {
 const styles = StyleSheet.create({
     container: {
       position: "absolute",
+      left: 0,
+      top: 0,
+      right: 0,
+      bottom: 0,
       backgroundColor: "#222",
-      width: "100%",
-      height: "100%",
       zIndex: -1,
     },
     mapView: {

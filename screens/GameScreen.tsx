@@ -69,7 +69,7 @@ export default function GameScreen({ navigation, route }: Props) {
 
   /** Set country list */
   useEffect(() => {
-    continentName && setCountries(shuffleCountries(Continents[continentName]));
+    continentName && setCountries(shuffleCountries(Continents[continentName].countries));
   }, [continentName]);
 
   /** Update focused country */

@@ -1,33 +1,49 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
-import MapView from 'react-native-maps';
+import MapView, { Region } from 'react-native-maps';
 
-export default function WorldMap(region) {
-  return (
-    <View style={styles.container}>
-      <MapView
-        style={styles.mapView}
-        customMapStyle={mapStyle}
-        region={{
-          latitude: 37.78825,
-          longitude: -122.4324,
-          latitudeDelta: 0.5922,
-          longitudeDelta: 0.5421,
-        }}
-        scrollEnabled={false}
-        pitchEnabled={false}
-        zoomEnabled={false}
-      />
-    </View>
-  );
+const defaultRegion = {
+    latitude: 37.78825,
+    longitude: -122.4324,
+    latitudeDelta: 10.5922,
+    longitudeDelta: 10.5421,
+}
+
+export default function WorldMap(region = defaultRegion) {
+
+    const [mapRegion, setMapRegion] = React.useState(region as Region)
+
+    const updateMapRegion = (newRegion: Region) => {
+        setMapRegion(newRegion);
+    }
+  
+    return (
+        <View style={styles.container}>
+            <MapView
+                provider="google"
+                style={styles.mapView}
+                customMapStyle={mapStyle}
+                rotateEnabled={false}
+                scrollEnabled={false}
+                pitchEnabled={false}
+                zoomEnabled={false}
+                zoomTapEnabled={false}
+                initialRegion={defaultRegion}
+                region={mapRegion}
+                onRegionChangeComplete={updateMapRegion}
+            />
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
   container: {
     position: "absolute",
     backgroundColor: "gray",
-    width: "100%",
-    height: "100%"
+    left: 0,
+    top: 0,
+    right: 0,
+    bottom: 0,
   },
   mapView: {
     width: "100%",

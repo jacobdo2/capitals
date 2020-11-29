@@ -651,7 +651,7 @@ const Continents: {
       latitude: -80.238501,
       longitude: -182.109375,
       latitudeDelta: 23.679018999999997,
-      longitudeDelta: null,
+      longitudeDelta: 23.679018999999997,
     },
     countries: [
       {

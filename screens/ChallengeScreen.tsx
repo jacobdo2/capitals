@@ -22,10 +22,10 @@ export default function ChallangeScreen({ navigation, route }: Props) {
 
   return (
     <View style={styles.banner}>
-      <WorldMap />
+      <WorldMap region={Continents[continent].region} />
       <Text style={styles.bannerTitle}>{route.params.continent}</Text>
       <Text style={styles.bannerCaption}>
-        {continent && Continents[continent].length} countries
+        {continent && Continents[continent].countries.length} countries
       </Text>
       <Pressable
         style={styles.startButtonContainer}
