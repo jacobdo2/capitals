@@ -13,16 +13,12 @@ export default function WorldMap({ region = defaultRegion }) {
   return (
     <View style={styles.container}>
       <MapView
+        customMapStyle={mapStyle}
         provider="google"
         style={styles.mapView}
-        customMapStyle={mapStyle}
-        rotateEnabled={false}
-        scrollEnabled={false}
-        pitchEnabled={false}
-        zoomEnabled={false}
-        zoomTapEnabled={false}
         initialRegion={region}
       />
+      <View style={styles.mapMask} />
     </View>
   );
 }
@@ -37,6 +33,20 @@ const styles = StyleSheet.create({
     bottom: 0,
   },
   mapView: {
+    position: "absolute",
+    left: 0,
+    top: 0,
+    right: 0,
+    bottom: 0,
+    width: "100%",
+    height: "100%",
+  },
+  mapMask: {
+    position: "absolute",
+    left: 0,
+    top: 0,
+    right: 0,
+    bottom: 0,
     width: "100%",
     height: "100%",
   },

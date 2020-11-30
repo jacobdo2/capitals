@@ -7,6 +7,12 @@ import WorldMap from "../components/WorldMap";
 import { Region } from "react-native-maps";
 
 export default function ChallengesScreen({ navigation }) {
+  const handleSelectChallenge = (continent: string) => {
+    navigation.navigate("Challenge", {
+      continent,
+    });
+  };
+
   return (
     <View style={styles.view}>
       <Text style={styles.title}>Capitals</Text>
@@ -15,11 +21,8 @@ export default function ChallengesScreen({ navigation }) {
         {Object.keys(Continents).map((continent: string) => (
           <Pressable
             key={continent}
-            onPress={() =>
-              navigation.navigate("Challenge", {
-                continent,
-              })
-            }
+            onPressOut={() => handleSelectChallenge(continent)}
+            onPress={() => handleSelectChallenge(continent)}
           >
             <View style={styles.card}>
               {Continents[continent].region && (
