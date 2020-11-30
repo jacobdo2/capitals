@@ -12,10 +12,6 @@ const defaultRegion = {
 export default function WorldMap(region = defaultRegion) {
 
     const [mapRegion, setMapRegion] = React.useState(region as Region)
-
-    const updateMapRegion = (newRegion: Region) => {
-        setMapRegion(newRegion);
-    }
   
     return (
         <View style={styles.container}>
@@ -28,9 +24,8 @@ export default function WorldMap(region = defaultRegion) {
                 pitchEnabled={false}
                 zoomEnabled={false}
                 zoomTapEnabled={false}
-                initialRegion={defaultRegion}
-                region={mapRegion}
-                onRegionChangeComplete={updateMapRegion}
+                initialRegion={mapRegion}
+                onRegionChangeComplete={setMapRegion}
             />
         </View>
     );
