@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Pressable, StyleSheet } from "react-native";
 
-import Continents from "../constants/Continents";
+import Continents, { Continent } from "../constants/Continents";
 import { Text, View, ScrollView } from "../components/Themed";
 import WorldMap from "../components/WorldMap";
-import { Region } from 'react-native-maps';
+import { Region } from "react-native-maps";
 
 export default function ChallengesScreen({ navigation }) {
   return (
@@ -22,7 +22,9 @@ export default function ChallengesScreen({ navigation }) {
             }
           >
             <View style={styles.card}>
-              <WorldMap region={Continents[continent].region as Region} />
+              {Continents[continent].region && (
+                <WorldMap region={Continents[continent].region as Region} />
+              )}
               <Text style={styles.cardTitle}>{continent}</Text>
               <Text style={styles.cardCaption}>
                 {Continents[continent].countries.length} countries

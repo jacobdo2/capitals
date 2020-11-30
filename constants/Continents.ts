@@ -5,7 +5,7 @@ type Region = {
   latitudeDelta: number;
 };
 
-type Continent = {
+export type Continent = {
   region: Region;
   countries: Country[];
 };
