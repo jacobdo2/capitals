@@ -78,8 +78,6 @@ export default function GameScreen({ navigation, route }: Props) {
   useEffect(() => {
     setBannerLabel(focused ? focused.name : "Select country");
     setRegion(focused ? focused.region : Continents[continentName].region)
-
-    console.log(region)
   }, [focused]);
 
   return (

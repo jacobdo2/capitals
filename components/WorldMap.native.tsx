@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { View, StyleSheet, Text } from "react-native";
 import MapView, { Region } from "react-native-maps";
 
@@ -10,16 +10,23 @@ const defaultRegion = {
 };
 
 export default function WorldMap({ region = defaultRegion }) {
+  let _mapView;
+
+  useEffect(() => {
+    _mapView.animateToRegion(region, 1000)
+  }, [region])
+
   return (
     <View style={styles.container}>
       <MapView
+        ref = {(mapView) => { _mapView = mapView; }}
         customMapStyle={mapStyle}
         provider="google"
         scrollEnabled={false}
         rotateEnabled={false}
         zoomEnabled={false}
         style={styles.mapView}
-        region={region}
+        initialRegion={region}
       />
       <View style={styles.mapMask} />
     </View>
