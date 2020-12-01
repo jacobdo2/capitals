@@ -15,8 +15,11 @@ export default function WorldMap({ region = defaultRegion }) {
       <MapView
         customMapStyle={mapStyle}
         provider="google"
+        scrollEnabled={false}
+        rotateEnabled={false}
+        zoomEnabled={false}
         style={styles.mapView}
-        initialRegion={region}
+        region={region}
       />
       <View style={styles.mapMask} />
     </View>

@@ -3,7 +3,7 @@ import { StackNavigationProp } from "@react-navigation/stack";
 import { RouteProp } from "@react-navigation/native";
 import { StyleSheet, Text, View, SafeAreaView, Pressable } from "react-native";
 import EditableCountryItem from "../components/EditableCountryItem";
-import { Answers, Country, TabOneParamList } from "../types";
+import { Answers, Country, TabOneParamList, Region } from "../types";
 import Continents from "../constants/Continents";
 import differenceInSeconds from "date-fns/differenceInSeconds";
 import shuffleCountries from "../utils/shuffleCountries";
@@ -13,6 +13,7 @@ import { useDimensions } from "@react-native-community/hooks";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scrollview";
 import { Form as AutoFocusForm } from "react-native-autofocus";
 import { useSelector } from "react-redux";
+import WorldMap from "../components/WorldMap";
 
 type Props = {
   navigation: StackNavigationProp<any, "Game">;
@@ -29,6 +30,7 @@ export default function GameScreen({ navigation, route }: Props) {
   const [countries, setCountries] = useState<Country[]>([]);
   const [secondsElapsed, setSecondsElapsed] = useState<number>(0);
   const [focused, setFocused] = useState<Country | undefined>(countries[0]);
+  const [region, setRegion] = useState<Region | undefined>(Continents[continentName].region);
   const gameStart = new Date();
 
   const handleAnswer = (country: Country, answer: string) => {
@@ -75,11 +77,15 @@ export default function GameScreen({ navigation, route }: Props) {
   /** Update focused country */
   useEffect(() => {
     setBannerLabel(focused ? focused.name : "Select country");
+    setRegion(focused ? focused.region : Continents[continentName].region)
+
+    console.log(region)
   }, [focused]);
 
   return (
     <SafeAreaView style={styles.container}>
       <View style={[styles.banner, { height: height * 0.3 }]}>
+        <WorldMap region={region} />
         <Text style={styles.bannerTitle}>{bannerLabel}</Text>
         <Text style={styles.timer}>{secondsToTimer(secondsElapsed)}</Text>
       </View>

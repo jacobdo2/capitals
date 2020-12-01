@@ -32,10 +32,18 @@ export type TabThreeParamList = {
   Settings: undefined;
 };
 
+export type Region = {
+  longitude: number;
+  latitude: number;
+  longitudeDelta: number;
+  latitudeDelta: number;
+};
+
 export type Country = {
   name: string;
   capital: string;
   continent: string;
+  region: Region;
 };
 
 export type Answers = {
