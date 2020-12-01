@@ -22,10 +22,10 @@ const Continents: {
 } = {
   Africa: {
     region: {
-      latitude: -34.741806,
-      longitude: -16.875,
-      latitudeDelta: 72.321219,
-      longitudeDelta: 76.910863,
+      latitude: 5,
+      longitude: 18.5,
+      latitudeDelta: 66,
+      longitudeDelta: 87,
     },
     countries: [
       {
@@ -33,8 +33,8 @@ const Continents: {
         capital: "El-AaiÃºn",
         continent: "Africa",
         region: {
-          latitude: -13.7867848,
-          longitude: 24.1597324,
+          latitude: 24.1797324,
+          longitude: -13.7667848,
           latitudeDelta: 0.03999999999999915,
           longitudeDelta: 0.03999999999999915,
         },
@@ -44,10 +44,10 @@ const Continents: {
         capital: "Algiers",
         continent: "Africa",
         region: {
-          latitude: -8.668908,
-          longitude: 18.968147,
-          latitudeDelta: 20.666245,
-          longitudeDelta: 18.3280585,
+          latitude: 28.13217625,
+          longitude: 1.6642145,
+          latitudeDelta: 18.3280585,
+          longitudeDelta: 20.666245,
         },
       },
       {
@@ -55,10 +55,10 @@ const Continents: {
         capital: "Luanda",
         continent: "Africa",
         region: {
-          latitude: 11.4609793,
-          longitude: -18.038945,
-          latitudeDelta: 12.6269063,
-          longitudeDelta: 13.650881599999998,
+          latitude: -11.2135042,
+          longitude: 17.77443245,
+          latitudeDelta: 13.650881599999998,
+          longitudeDelta: 12.6269063,
         },
       },
       {
@@ -66,8 +66,8 @@ const Continents: {
         capital: "Porto-Novo",
         continent: "Africa",
         region: {
-          latitude: 5.4621058,
-          longitude: 6.1730586,
+          latitude: 6.3330586,
+          longitude: 5.6221058,
           latitudeDelta: 0.3200000000000003,
           longitudeDelta: 0.3200000000000003,
         },
@@ -77,10 +77,10 @@ const Continents: {
         capital: "Gaborone",
         continent: "Africa",
         region: {
-          latitude: 19.9986474,
-          longitude: -26.9059669,
-          latitudeDelta: 9.3766566,
-          longitudeDelta: 9.127829899999998,
+          latitude: -22.34205195,
+          longitude: 24.686975699999998,
+          latitudeDelta: 9.127829899999998,
+          longitudeDelta: 9.3766566,
         },
       },
       {
@@ -88,10 +88,10 @@ const Continents: {
         capital: "Ouagadougou",
         continent: "Africa",
         region: {
-          latitude: -5.5132416,
-          longitude: 9.4104718,
-          latitudeDelta: 7.922213299999999,
-          longitudeDelta: 5.6735282,
+          latitude: 12.2472359,
+          longitude: -1.55213495,
+          latitudeDelta: 5.6735282,
+          longitudeDelta: 7.922213299999999,
         },
       },
       {
@@ -99,10 +99,10 @@ const Continents: {
         capital: "Bujumbura",
         continent: "Africa",
         region: {
-          latitude: 29.0007401,
-          longitude: -4.4693155,
-          latitudeDelta: 1.8491061000000002,
-          longitudeDelta: 2.1596359000000005,
+          latitude: -3.38949755,
+          longitude: 29.92529315,
+          latitudeDelta: 2.1596359000000005,
+          longitudeDelta: 1.8491061000000002,
         },
       },
       {
@@ -110,10 +110,10 @@ const Continents: {
         capital: "Yaounde",
         continent: "Africa",
         region: {
-          latitude: 8.3822176,
-          longitude: 1.6546659,
-          latitudeDelta: 7.809929999999998,
-          longitudeDelta: 11.4286671,
+          latitude: 7.36899945,
+          longitude: 12.2871826,
+          latitudeDelta: 11.4286671,
+          longitudeDelta: 7.809929999999998,
         },
       },
       {
@@ -121,10 +121,10 @@ const Continents: {
         capital: "Praia",
         continent: "Africa",
         region: {
-          latitude: -25.3609478,
-          longitude: 14.8031546,
-          latitudeDelta: 2.6936062000000014,
-          longitudeDelta: 2.4021562000000003,
+          latitude: 16.0042327,
+          longitude: -24.014144700000003,
+          latitudeDelta: 2.4021562000000003,
+          longitudeDelta: 2.6936062000000014,
         },
       },
       {
@@ -132,10 +132,10 @@ const Continents: {
         capital: "Bangui",
         continent: "Africa",
         region: {
-          latitude: 55.1742999,
-          longitude: 25.217277,
-          latitudeDelta: 0.001960900000000265,
-          longitudeDelta: 0.0021586000000013428,
+          latitude: 25.2183563,
+          longitude: 55.17528035,
+          latitudeDelta: 0.0021586000000013428,
+          longitudeDelta: 0.001960900000000265,
         },
       },
       {
@@ -143,10 +143,10 @@ const Continents: {
         capital: "N'Djamena",
         continent: "Africa",
         region: {
-          latitude: 13.47348,
-          longitude: 7.44107,
-          latitudeDelta: 10.52652,
-          longitudeDelta: 16.05643,
+          latitude: 15.469285,
+          longitude: 18.73674,
+          latitudeDelta: 16.05643,
+          longitudeDelta: 10.52652,
         },
       },
       {
@@ -154,10 +154,10 @@ const Continents: {
         capital: "Moroni",
         continent: "Africa",
         region: {
-          latitude: 43.025305,
-          longitude: -12.621,
-          latitudeDelta: 1.7198871999999952,
-          longitudeDelta: 1.4560000000000013,
+          latitude: -11.893,
+          longitude: 43.8852486,
+          latitudeDelta: 1.4560000000000013,
+          longitudeDelta: 1.7198871999999952,
         },
       },
       {
@@ -165,10 +165,10 @@ const Continents: {
         capital: "Kinshasa",
         continent: "Africa",
         region: {
-          latitude: 15.2829578,
-          longitude: -4.2726671,
-          latitudeDelta: 0.00017820000000057235,
-          longitudeDelta: 0.0002967999999992088,
+          latitude: -4.2725187,
+          longitude: 15.2830469,
+          latitudeDelta: 0.0002967999999992088,
+          longitudeDelta: 0.00017820000000057235,
         },
       },
       {
@@ -176,10 +176,10 @@ const Continents: {
         capital: "Brazzaville",
         continent: "Africa",
         region: {
-          latitude: 11.0048205,
-          longitude: -5.149089,
-          latitudeDelta: 7.638790500000001,
-          longitudeDelta: 8.862145,
+          latitude: -0.7180165000000001,
+          longitude: 14.82421575,
+          latitudeDelta: 8.862145,
+          longitudeDelta: 7.638790500000001,
         },
       },
       {
@@ -187,10 +187,10 @@ const Continents: {
         capital: "Yamoussoukro",
         continent: "Africa",
         region: {
-          latitude: -8.601725,
-          longitude: 4.1621205,
-          latitudeDelta: 6.108694,
-          longitudeDelta: 6.5780765,
+          latitude: 7.45115875,
+          longitude: -5.547378,
+          latitudeDelta: 6.5780765,
+          longitudeDelta: 6.108694,
         },
       },
       {
@@ -198,10 +198,10 @@ const Continents: {
         capital: "Djibouti",
         continent: "Africa",
         region: {
-          latitude: 41.7713139,
-          longitude: 10.9149547,
-          latitudeDelta: 1.8865906999999993,
-          longitudeDelta: 1.8773534000000005,
+          latitude: 11.8536314,
+          longitude: 42.71460925,
+          latitudeDelta: 1.8773534000000005,
+          longitudeDelta: 1.8865906999999993,
         },
       },
       {
@@ -209,10 +209,10 @@ const Continents: {
         capital: "Cairo",
         continent: "Africa",
         region: {
-          latitude: 24.6499112,
-          longitude: 22,
-          latitudeDelta: 12.4654405,
-          longitudeDelta: 9.833085400000002,
+          latitude: 26.9165427,
+          longitude: 30.882631449999998,
+          latitudeDelta: 9.833085400000002,
+          longitudeDelta: 12.4654405,
         },
       },
       {
@@ -220,10 +220,10 @@ const Continents: {
         capital: "Malabo",
         continent: "Africa",
         region: {
-          latitude: 5.4172943,
-          longitude: -1.6732196,
-          latitudeDelta: 5.9425685,
-          longitudeDelta: 5.6622196,
+          latitude: 1.1578902,
+          longitude: 8.38857855,
+          latitudeDelta: 5.6622196,
+          longitudeDelta: 5.9425685,
         },
       },
       {
@@ -231,10 +231,10 @@ const Continents: {
         capital: "Asmara",
         continent: "Africa",
         region: {
-          latitude: 55.1720522,
-          longitude: 25.2197993,
-          latitudeDelta: 0.0016193999999956077,
-          longitudeDelta: 0.0022015000000017437,
+          latitude: 25.220900049999997,
+          longitude: 55.1728619,
+          latitudeDelta: 0.0022015000000017437,
+          longitudeDelta: 0.0016193999999956077,
         },
       },
       {
@@ -242,10 +242,10 @@ const Continents: {
         capital: "Addis Ababa",
         continent: "Africa",
         region: {
-          latitude: 32.9975838,
-          longitude: 3.397448,
-          latitudeDelta: 14.984795900000002,
-          longitudeDelta: 11.4966057,
+          latitude: 9.14575085,
+          longitude: 40.48998175,
+          latitudeDelta: 11.4966057,
+          longitudeDelta: 14.984795900000002,
         },
       },
       {
@@ -253,10 +253,10 @@ const Continents: {
         capital: "Libreville",
         continent: "Africa",
         region: {
-          latitude: 8.5002246,
-          longitude: -4.1012261,
-          latitudeDelta: 6.0392194,
-          longitudeDelta: 6.4194432,
+          latitude: -0.8915044999999999,
+          longitude: 11.5198343,
+          latitudeDelta: 6.4194432,
+          longitudeDelta: 6.0392194,
         },
       },
       {
@@ -264,10 +264,10 @@ const Continents: {
         capital: "Banjul",
         continent: "Africa",
         region: {
-          latitude: -17.0288254,
-          longitude: 13.061,
-          latitudeDelta: 3.2310473999999996,
-          longitudeDelta: 0.7643137000000007,
+          latitude: 13.443156850000001,
+          longitude: -15.413301699999998,
+          latitudeDelta: 0.7643137000000007,
+          longitudeDelta: 3.2310473999999996,
         },
       },
       {
@@ -275,10 +275,10 @@ const Continents: {
         capital: "Accra",
         continent: "Africa",
         region: {
-          latitude: -3.260786,
-          longitude: 4.5392525,
-          latitudeDelta: 4.5340802,
-          longitudeDelta: 6.635603700000001,
+          latitude: 7.85705435,
+          longitude: -0.9937459,
+          latitudeDelta: 6.635603700000001,
+          longitudeDelta: 4.5340802,
         },
       },
       {
@@ -286,10 +286,10 @@ const Continents: {
         capital: "Conakry",
         continent: "Africa",
         region: {
-          latitude: -77.4591124,
-          longitude: 38.1240893,
-          latitudeDelta: 0.03999999999999204,
-          longitudeDelta: 0.03999999999999915,
+          latitude: 38.144089300000005,
+          longitude: -77.4391124,
+          latitudeDelta: 0.03999999999999915,
+          longitudeDelta: 0.03999999999999204,
         },
       },
       {
@@ -297,10 +297,10 @@ const Continents: {
         capital: "Bissau",
         continent: "Africa",
         region: {
-          latitude: -16.894523,
-          longitude: 10.6514215,
-          latitudeDelta: 3.259645299999999,
-          longitudeDelta: 2.034816900000001,
+          latitude: 11.66882995,
+          longitude: -15.26470035,
+          latitudeDelta: 2.034816900000001,
+          longitudeDelta: 3.259645299999999,
         },
       },
       {
@@ -308,10 +308,10 @@ const Continents: {
         capital: "Nairobi",
         continent: "Africa",
         region: {
-          latitude: 33.9098987,
-          longitude: -4.8995204,
-          latitudeDelta: 7.989679299999999,
-          longitudeDelta: 9.519520400000001,
+          latitude: -0.1397602,
+          longitude: 37.90473835,
+          latitudeDelta: 9.519520400000001,
+          longitudeDelta: 7.989679299999999,
         },
       },
       {
@@ -319,10 +319,10 @@ const Continents: {
         capital: "Maseru",
         continent: "Africa",
         region: {
-          latitude: 27.0114632,
-          longitude: -30.6772773,
-          latitudeDelta: 2.444246699999997,
-          longitudeDelta: 2.1066623,
+          latitude: -29.623946150000002,
+          longitude: 28.23358655,
+          latitudeDelta: 2.1066623,
+          longitudeDelta: 2.444246699999997,
         },
       },
       {
@@ -330,10 +330,10 @@ const Continents: {
         capital: "Monrovia",
         continent: "Africa",
         region: {
-          latitude: -11.6080764,
-          longitude: 4.1555907,
-          latitudeDelta: 4.2407534,
-          longitudeDelta: 4.3963954,
+          latitude: 6.353788400000001,
+          longitude: -9.4876997,
+          latitudeDelta: 4.3963954,
+          longitudeDelta: 4.2407534,
         },
       },
       {
@@ -341,10 +341,10 @@ const Continents: {
         capital: "Tripoli",
         continent: "Africa",
         region: {
-          latitude: 9.391081,
-          longitude: 19.5008138,
-          latitudeDelta: 15.985981899999999,
-          longitudeDelta: 13.853776,
+          latitude: 26.4277018,
+          longitude: 17.38407195,
+          latitudeDelta: 13.853776,
+          longitudeDelta: 15.985981899999999,
         },
       },
       {
@@ -352,10 +352,10 @@ const Continents: {
         capital: "Antananarivo",
         continent: "Africa",
         region: {
-          latitude: 43.2202072,
-          longitude: -25.6071002,
-          latitudeDelta: 7.266048100000006,
-          longitudeDelta: 13.655130900000001,
+          latitude: -18.77953475,
+          longitude: 46.85323125,
+          latitudeDelta: 13.655130900000001,
+          longitudeDelta: 7.266048100000006,
         },
       },
       {
@@ -363,10 +363,10 @@ const Continents: {
         capital: "Lilongwe",
         continent: "Africa",
         region: {
-          latitude: 32.6703616,
-          longitude: -17.1296031,
-          latitudeDelta: 3.2482115000000036,
-          longitudeDelta: 7.761277,
+          latitude: -13.2489646,
+          longitude: 34.294467350000005,
+          latitudeDelta: 7.761277,
+          longitudeDelta: 3.2482115000000036,
         },
       },
       {
@@ -374,10 +374,10 @@ const Continents: {
         capital: "Bamako",
         continent: "Africa",
         region: {
-          latitude: -12.2402835,
-          longitude: 10.147811,
-          latitudeDelta: 16.5076663,
-          longitudeDelta: 14.853272999999998,
+          latitude: 17.574447499999998,
+          longitude: -3.98645035,
+          latitudeDelta: 14.853272999999998,
+          longitudeDelta: 16.5076663,
         },
       },
       {
@@ -385,10 +385,10 @@ const Continents: {
         capital: "Nouakchott",
         continent: "Africa",
         region: {
-          latitude: 55.1665334,
-          longitude: 25.2143602,
-          latitudeDelta: 0.002533499999998412,
-          longitudeDelta: 0.002033699999998362,
+          latitude: 25.21537705,
+          longitude: 55.16780015,
+          latitudeDelta: 0.002033699999998362,
+          longitudeDelta: 0.002533499999998412,
         },
       },
       {
@@ -396,10 +396,10 @@ const Continents: {
         capital: "Port Louis",
         continent: "Africa",
         region: {
-          latitude: 56.3825151,
-          longitude: -20.725,
-          latitudeDelta: 7.332616800000004,
-          longitudeDelta: 10.587000000000002,
+          latitude: -15.4315,
+          longitude: 60.0488235,
+          latitudeDelta: 10.587000000000002,
+          longitudeDelta: 7.332616800000004,
         },
       },
       {
@@ -407,10 +407,10 @@ const Continents: {
         capital: "Rabat",
         continent: "Africa",
         region: {
-          latitude: -17.2551456,
-          longitude: 21.3365321,
-          latitudeDelta: 16.256716599999997,
-          longitudeDelta: 14.713994800000002,
+          latitude: 28.6935295,
+          longitude: -9.1267873,
+          latitudeDelta: 14.713994800000002,
+          longitudeDelta: 16.256716599999997,
         },
       },
       {
@@ -418,10 +418,10 @@ const Continents: {
         capital: "Maputo",
         continent: "Africa",
         region: {
-          latitude: -96.274167,
-          longitude: 19.038889,
-          latitudeDelta: 0.04000000000000625,
-          longitudeDelta: 0.03999999999999915,
+          latitude: 19.058889,
+          longitude: -96.254167,
+          latitudeDelta: 0.03999999999999915,
+          longitudeDelta: 0.04000000000000625,
         },
       },
       {
@@ -429,10 +429,10 @@ const Continents: {
         capital: "Windhoek",
         continent: "Africa",
         region: {
-          latitude: 11.5280384,
-          longitude: -28.96945,
-          latitudeDelta: 13.7337287,
-          longitudeDelta: 12.005964499999997,
+          latitude: -22.96646775,
+          longitude: 18.39490275,
+          latitudeDelta: 12.005964499999997,
+          longitudeDelta: 13.7337287,
         },
       },
       {
@@ -440,10 +440,10 @@ const Continents: {
         capital: "Niamey",
         continent: "Africa",
         region: {
-          latitude: 0.1689653,
-          longitude: 11.693756,
-          latitudeDelta: 15.8277017,
-          longitudeDelta: 11.823422,
+          latitude: 17.605467,
+          longitude: 8.082816150000001,
+          latitudeDelta: 11.823422,
+          longitudeDelta: 15.8277017,
         },
       },
       {
@@ -451,10 +451,10 @@ const Continents: {
         capital: "Abuja",
         continent: "Africa",
         region: {
-          latitude: 2.676932,
-          longitude: 4.0690959,
-          latitudeDelta: 12.001082,
-          longitudeDelta: 9.8165491,
+          latitude: 8.97737045,
+          longitude: 8.677472999999999,
+          latitudeDelta: 9.8165491,
+          longitudeDelta: 12.001082,
         },
       },
       {
@@ -462,10 +462,10 @@ const Continents: {
         capital: "Kigali",
         continent: "Africa",
         region: {
-          latitude: 28.8617546,
-          longitude: -2.8389804,
-          latitudeDelta: 2.037319199999999,
-          longitudeDelta: 1.7915721,
+          latitude: -1.9431943500000002,
+          longitude: 29.8804142,
+          latitudeDelta: 1.7915721,
+          longitudeDelta: 2.037319199999999,
         },
       },
       {
@@ -473,10 +473,10 @@ const Continents: {
         capital: "Jamestown",
         continent: "Africa",
         region: {
-          latitude: -5.9973424,
-          longitude: -16.23,
-          latitudeDelta: 0.5739270999999997,
-          longitudeDelta: 0.5259999999999998,
+          latitude: -15.967,
+          longitude: -5.71037885,
+          latitudeDelta: 0.5259999999999998,
+          longitudeDelta: 0.5739270999999997,
         },
       },
       {
@@ -484,10 +484,10 @@ const Continents: {
         capital: "Sao Tome",
         continent: "Africa",
         region: {
-          latitude: 6.260642,
-          longitude: -0.2135137,
-          latitudeDelta: 1.4098363000000003,
-          longitudeDelta: 2.1392738,
+          latitude: 0.8561232,
+          longitude: 6.96556015,
+          latitudeDelta: 2.1392738,
+          longitudeDelta: 1.4098363000000003,
         },
       },
       {
@@ -495,10 +495,10 @@ const Continents: {
         capital: "Dakar",
         continent: "Africa",
         region: {
-          latitude: -17.7862419,
-          longitude: 12.2372838,
-          latitudeDelta: 6.440342300000001,
-          longitudeDelta: 4.454687400000001,
+          latitude: 14.4646275,
+          longitude: -14.56607075,
+          latitudeDelta: 4.454687400000001,
+          longitudeDelta: 6.440342300000001,
         },
       },
       {
@@ -506,10 +506,10 @@ const Continents: {
         capital: "Victoria",
         continent: "Africa",
         region: {
-          latitude: 55.1816849,
-          longitude: 25.2237725,
-          latitudeDelta: 0.0023800999999963324,
-          longitudeDelta: 0.0013001000000016916,
+          latitude: 25.22442255,
+          longitude: 55.18287495,
+          latitudeDelta: 0.0013001000000016916,
+          longitudeDelta: 0.0023800999999963324,
         },
       },
       {
@@ -517,10 +517,10 @@ const Continents: {
         capital: "Freetown",
         continent: "Africa",
         region: {
-          latitude: -13.5003389,
-          longitude: 6.755,
-          latitudeDelta: 3.2286558999999997,
-          longitudeDelta: 3.2449730000000008,
+          latitude: 8.3774865,
+          longitude: -11.88601095,
+          latitudeDelta: 3.2449730000000008,
+          longitudeDelta: 3.2286558999999997,
         },
       },
       {
@@ -528,10 +528,10 @@ const Continents: {
         capital: "Mogadishu",
         continent: "Africa",
         region: {
-          latitude: 15.246667,
-          longitude: -13.200556,
-          latitudeDelta: 0.03999999999999915,
-          longitudeDelta: 0.040000000000000924,
+          latitude: -13.180556,
+          longitude: 15.266667,
+          latitudeDelta: 0.040000000000000924,
+          longitudeDelta: 0.03999999999999915,
         },
       },
       {
@@ -539,10 +539,10 @@ const Continents: {
         capital: "Pretoria",
         continent: "Africa",
         region: {
-          latitude: 16.3335213,
-          longitude: -47.1788335,
-          latitudeDelta: 21.956374099999998,
-          longitudeDelta: 25.053803400000003,
+          latitude: -34.6519318,
+          longitude: 27.31170835,
+          latitudeDelta: 25.053803400000003,
+          longitudeDelta: 21.956374099999998,
         },
       },
       {
@@ -550,8 +550,8 @@ const Continents: {
         capital: "Khartoum",
         continent: "Africa",
         region: {
-          latitude: 6.48,
-          longitude: 10.88,
+          latitude: 10.9,
+          longitude: 6.5,
           latitudeDelta: 0.03999999999999915,
           longitudeDelta: 0.03999999999999915,
         },
@@ -561,10 +561,10 @@ const Continents: {
         capital: "Mbabane",
         continent: "Africa",
         region: {
-          latitude: 55.1807318,
-          longitude: 25.2156672,
-          latitudeDelta: 0.002128200000001357,
-          longitudeDelta: 0.0015878000000029147,
+          latitude: 25.2164611,
+          longitude: 55.1817959,
+          latitudeDelta: 0.0015878000000029147,
+          longitudeDelta: 0.002128200000001357,
         },
       },
       {
@@ -572,10 +572,10 @@ const Continents: {
         capital: "Dar es Salaam",
         continent: "Africa",
         region: {
-          latitude: 39.2895223,
-          longitude: -6.8127308,
-          latitudeDelta: 0.00018819999999664105,
-          longitudeDelta: 0.00019279999999977093,
+          latitude: -6.8126344,
+          longitude: 39.2896164,
+          latitudeDelta: 0.00019279999999977093,
+          longitudeDelta: 0.00018819999999664105,
         },
       },
       {
@@ -583,10 +583,10 @@ const Continents: {
         capital: "Lome",
         continent: "Africa",
         region: {
-          latitude: -0.1439746,
-          longitude: 5.926547,
-          latitudeDelta: 1.9527351,
-          longitudeDelta: 5.2129632,
+          latitude: 8.5330286,
+          longitude: 0.83239295,
+          latitudeDelta: 5.2129632,
+          longitudeDelta: 1.9527351,
         },
       },
       {
@@ -594,10 +594,10 @@ const Continents: {
         capital: "Tunis",
         continent: "Africa",
         region: {
-          latitude: 7.5219807,
-          longitude: 30.230236,
-          latitudeDelta: 4.358132599999999,
-          longitudeDelta: 7.530969199999998,
+          latitude: 33.9957206,
+          longitude: 9.701046999999999,
+          latitudeDelta: 7.530969199999998,
+          longitudeDelta: 4.358132599999999,
         },
       },
       {
@@ -605,10 +605,10 @@ const Continents: {
         capital: "Kampala",
         continent: "Africa",
         region: {
-          latitude: 29.573433,
-          longitude: -1.4823179,
-          latitudeDelta: 5.4268749999999955,
-          longitudeDelta: 5.7163945,
+          latitude: 1.37587935,
+          longitude: 32.2868705,
+          latitudeDelta: 5.7163945,
+          longitudeDelta: 5.4268749999999955,
         },
       },
       {
@@ -616,10 +616,10 @@ const Continents: {
         capital: "Lusaka",
         continent: "Africa",
         region: {
-          latitude: 21.9993509,
-          longitude: -18.0765945,
-          latitudeDelta: 11.701760099999998,
-          longitudeDelta: 9.805312299999999,
+          latitude: -13.17393835,
+          longitude: 27.850230949999997,
+          latitudeDelta: 9.805312299999999,
+          longitudeDelta: 11.701760099999998,
         },
       },
       {
@@ -627,10 +627,10 @@ const Continents: {
         capital: "Harare",
         continent: "Africa",
         region: {
-          latitude: 25.2373,
-          longitude: -22.4241096,
-          latitudeDelta: 7.831041299999999,
-          longitudeDelta: 6.814406300000002,
+          latitude: -19.01690645,
+          longitude: 29.152820650000002,
+          latitudeDelta: 6.814406300000002,
+          longitudeDelta: 7.831041299999999,
         },
       },
       {
@@ -638,74 +638,20 @@ const Continents: {
         capital: "Diego Garcia",
         continent: "Africa",
         region: {
-          latitude: 71.036504,
-          longitude: -7.6454079,
-          latitudeDelta: 1.6655117000000104,
-          longitudeDelta: 2.6083419,
-        },
-      },
-    ],
-  },
-  Antarctica: {
-    region: {
-      latitude: -80.238501,
-      longitude: -182.109375,
-      latitudeDelta: 23.679018999999997,
-      longitudeDelta: 23.679018999999997,
-    },
-    countries: [
-      {
-        name: "South Georgia and South Sandwich Islands",
-        capital: "King Edward Point",
-        continent: "Antarctica",
-        region: {
-          latitude: -42.354739,
-          longitude: -59.684,
-          latitudeDelta: 16.5079087,
-          longitudeDelta: 6.333924499999995,
-        },
-      },
-      {
-        name: "French Southern and Antarctic Lands",
-        capital: "Port-aux-FranÃ§ais",
-        continent: "Antarctica",
-        region: {
-          latitude: 39.4138676,
-          longitude: -50.2187169,
-          latitudeDelta: 38.4356298,
-          longitudeDelta: 38.904724099999996,
-        },
-      },
-      {
-        name: "Antarctica",
-        capital: "N/A",
-        continent: "Antarctica",
-        region: {
-          latitude: -180,
-          longitude: -85.0511287,
-          latitudeDelta: 360,
-          longitudeDelta: 25.051128700000007,
-        },
-      },
-      {
-        name: "Heard Island and McDonald Islands",
-        capital: "N/A",
-        continent: "Antarctica",
-        region: {
-          latitude: 72.2460938,
-          longitude: -53.394741,
-          latitudeDelta: 1.9527816000000087,
-          longitudeDelta: 0.691673300000005,
+          latitude: -6.341236950000001,
+          longitude: 71.86925984999999,
+          latitudeDelta: 2.6083419,
+          longitudeDelta: 1.6655117000000104,
         },
       },
     ],
   },
   Asia: {
     region: {
-      latitude: -80.238501,
-      longitude: -182.109375,
-      latitudeDelta: 23.679018999999997,
-      longitudeDelta: 441.210938,
+      latitude: 42.5,
+      longitude: 72.5,
+      latitudeDelta: 55,
+      longitudeDelta: 65,
     },
     countries: [
       {
@@ -713,10 +659,10 @@ const Continents: {
         capital: "Kabul",
         continent: "Asia",
         region: {
-          latitude: 60.5176034,
-          longitude: 29.3772,
-          latitudeDelta: 14.372258599999995,
-          longitudeDelta: 9.113868200000002,
+          latitude: 33.9341341,
+          longitude: 67.70373269999999,
+          latitudeDelta: 9.113868200000002,
+          longitudeDelta: 14.372258599999995,
         },
       },
       {
@@ -724,10 +670,10 @@ const Continents: {
         capital: "Manama",
         continent: "Asia",
         region: {
-          latitude: 72.5273968,
-          longitude: 35.1878012,
-          latitudeDelta: 0.03999999999999204,
-          longitudeDelta: 0.03999999999999915,
+          latitude: 35.207801200000006,
+          longitude: 72.5473968,
+          latitudeDelta: 0.03999999999999915,
+          longitudeDelta: 0.03999999999999204,
         },
       },
       {
@@ -735,10 +681,10 @@ const Continents: {
         capital: "Dhaka",
         continent: "Asia",
         region: {
-          latitude: 88.0075306,
-          longitude: 20.3756582,
-          latitudeDelta: 4.6729673000000105,
-          longitudeDelta: 6.2625952,
+          latitude: 23.5069558,
+          longitude: 90.34401425,
+          latitudeDelta: 6.2625952,
+          longitudeDelta: 4.6729673000000105,
         },
       },
       {
@@ -746,10 +692,10 @@ const Continents: {
         capital: "Thimphu",
         continent: "Asia",
         region: {
-          latitude: 88.7464724,
-          longitude: 26.702016,
-          latitudeDelta: 3.3787597000000034,
-          longitudeDelta: 1.5449710000000003,
+          latitude: 27.474501500000002,
+          longitude: 90.43585225000001,
+          latitudeDelta: 1.5449710000000003,
+          longitudeDelta: 3.3787597000000034,
         },
       },
       {
@@ -757,10 +703,10 @@ const Continents: {
         capital: "Bandar Seri Begawan",
         continent: "Asia",
         region: {
-          latitude: 114.0758734,
-          longitude: 4.002508,
-          latitudeDelta: 1.287688899999992,
-          longitudeDelta: 1.0986777000000005,
+          latitude: 4.55184685,
+          longitude: 114.71971785,
+          latitudeDelta: 1.0986777000000005,
+          longitudeDelta: 1.287688899999992,
         },
       },
       {
@@ -768,10 +714,10 @@ const Continents: {
         capital: "Rangoon",
         continent: "Asia",
         region: {
-          latitude: 92.1719423,
-          longitude: 9.4399432,
-          latitudeDelta: 8.998137299999996,
-          longitudeDelta: 19.107891799999997,
+          latitude: 18.9938891,
+          longitude: 96.67101095,
+          latitudeDelta: 19.107891799999997,
+          longitudeDelta: 8.998137299999996,
         },
       },
       {
@@ -779,10 +725,10 @@ const Continents: {
         capital: "Phnom Penh",
         continent: "Asia",
         region: {
-          latitude: 102.3338282,
-          longitude: 9.4752639,
-          latitudeDelta: 5.293850599999999,
-          longitudeDelta: 5.215158499999999,
+          latitude: 12.082843149999999,
+          longitude: 104.98075349999999,
+          latitudeDelta: 5.215158499999999,
+          longitudeDelta: 5.293850599999999,
         },
       },
       {
@@ -790,10 +736,10 @@ const Continents: {
         capital: "Beijing",
         continent: "Asia",
         region: {
-          latitude: -99.4612273,
-          longitude: 25.0671341,
-          latitudeDelta: 1.0396513000000027,
-          longitudeDelta: 0.8490482999999998,
+          latitude: 25.49165825,
+          longitude: -98.94140165,
+          latitudeDelta: 0.8490482999999998,
+          longitudeDelta: 1.0396513000000027,
         },
       },
       {
@@ -801,10 +747,10 @@ const Continents: {
         capital: "New Delhi",
         continent: "Asia",
         region: {
-          latitude: 68.1113787,
-          longitude: 6.5546079,
-          latitudeDelta: 29.284182299999998,
-          longitudeDelta: 29.119937800000002,
+          latitude: 21.114576800000002,
+          longitude: 82.75346985,
+          latitudeDelta: 29.119937800000002,
+          longitudeDelta: 29.284182299999998,
         },
       },
       {
@@ -812,10 +758,10 @@ const Continents: {
         capital: "Jakarta",
         continent: "Asia",
         region: {
-          latitude: 94.7717124,
-          longitude: -11.2085669,
-          latitudeDelta: 46.247732,
-          longitudeDelta: 17.483016499999998,
+          latitude: -2.46705865,
+          longitude: 117.8955784,
+          latitudeDelta: 17.483016499999998,
+          longitudeDelta: 46.247732,
         },
       },
       {
@@ -823,10 +769,10 @@ const Continents: {
         capital: "Tehran",
         continent: "Asia",
         region: {
-          latitude: 44.0318908,
-          longitude: 24.8465103,
-          latitudeDelta: 19.301379600000004,
-          longitudeDelta: 14.935139900000003,
+          latitude: 32.31408025,
+          longitude: 53.6825806,
+          latitudeDelta: 14.935139900000003,
+          longitudeDelta: 19.301379600000004,
         },
       },
       {
@@ -834,10 +780,10 @@ const Continents: {
         capital: "Baghdad",
         continent: "Asia",
         region: {
-          latitude: 38.7936719,
-          longitude: 29.0585661,
-          latitudeDelta: 10.047598299999997,
-          longitudeDelta: 8.322365900000001,
+          latitude: 33.219749050000004,
+          longitude: 43.817471049999995,
+          latitudeDelta: 8.322365900000001,
+          longitudeDelta: 10.047598299999997,
         },
       },
       {
@@ -845,10 +791,10 @@ const Continents: {
         capital: "Jerusalem",
         continent: "Asia",
         region: {
-          latitude: 34.2674994,
-          longitude: 29.4533796,
-          latitudeDelta: 1.627524000000001,
-          longitudeDelta: 3.8822520999999988,
+          latitude: 31.39450565,
+          longitude: 35.0812614,
+          latitudeDelta: 3.8822520999999988,
+          longitudeDelta: 1.627524000000001,
         },
       },
       {
@@ -856,10 +802,10 @@ const Continents: {
         capital: "Tokyo",
         continent: "Asia",
         region: {
-          latitude: 122.7141754,
-          longitude: 20.2145811,
-          latitudeDelta: 31.49136560000001,
-          longitudeDelta: 25.496623500000002,
+          latitude: 32.96289285,
+          longitude: 138.4598582,
+          latitudeDelta: 25.496623500000002,
+          longitudeDelta: 31.49136560000001,
         },
       },
       {
@@ -867,10 +813,10 @@ const Continents: {
         capital: "Amman",
         continent: "Asia",
         region: {
-          latitude: 122.4078085,
-          longitude: 10.5378127,
-          latitudeDelta: 0.2278210999999999,
-          longitudeDelta: 0.1532467999999998,
+          latitude: 10.614436099999999,
+          longitude: 122.52171905,
+          latitudeDelta: 0.1532467999999998,
+          longitudeDelta: 0.2278210999999999,
         },
       },
       {
@@ -878,10 +824,10 @@ const Continents: {
         capital: "Astana",
         continent: "Asia",
         region: {
-          latitude: 46.4932179,
-          longitude: 40.5686476,
-          latitudeDelta: 40.822413700000006,
-          longitudeDelta: 14.8735225,
+          latitude: 48.005408849999995,
+          longitude: 66.90442475,
+          latitudeDelta: 14.8735225,
+          longitudeDelta: 40.822413700000006,
         },
       },
       {
@@ -889,10 +835,10 @@ const Continents: {
         capital: "Pyongyang",
         continent: "Asia",
         region: {
-          latitude: 124.0913902,
-          longitude: 37.5867855,
-          latitudeDelta: 6.833256799999987,
-          longitudeDelta: 5.4221787000000035,
+          latitude: 40.29787485,
+          longitude: 127.5080186,
+          latitudeDelta: 5.4221787000000035,
+          longitudeDelta: 6.833256799999987,
         },
       },
       {
@@ -900,10 +846,10 @@ const Continents: {
         capital: "Seoul",
         continent: "Asia",
         region: {
-          latitude: 126.89575,
-          longitude: 37.52806,
-          latitudeDelta: 0.0000999999999891088,
-          longitudeDelta: 0.00009999999999621423,
+          latitude: 37.52811,
+          longitude: 126.89580000000001,
+          latitudeDelta: 0.00009999999999621423,
+          longitudeDelta: 0.0000999999999891088,
         },
       },
       {
@@ -911,10 +857,10 @@ const Continents: {
         capital: "Kuwait City",
         continent: "Asia",
         region: {
-          latitude: -72.8801102,
-          longitude: -12.0494672,
-          latitudeDelta: 0.04000000000000625,
-          longitudeDelta: 0.040000000000000924,
+          latitude: -12.0294672,
+          longitude: -72.86011020000001,
+          latitudeDelta: 0.040000000000000924,
+          longitudeDelta: 0.04000000000000625,
         },
       },
       {
@@ -922,10 +868,10 @@ const Continents: {
         capital: "Bishkek",
         continent: "Asia",
         region: {
-          latitude: 69.2649523,
-          longitude: 39.1728437,
-          latitudeDelta: 10.964626999999993,
-          longitudeDelta: 4.093953399999997,
+          latitude: 41.2198204,
+          longitude: 74.74726580000001,
+          latitudeDelta: 4.093953399999997,
+          longitudeDelta: 10.964626999999993,
         },
       },
       {
@@ -933,10 +879,10 @@ const Continents: {
         capital: "Vientiane",
         continent: "Asia",
         region: {
-          latitude: 100.0843247,
-          longitude: 13.9096752,
-          latitudeDelta: 7.550674200000003,
-          longitudeDelta: 8.5989965,
+          latitude: 18.20917345,
+          longitude: 103.8596618,
+          latitudeDelta: 8.5989965,
+          longitudeDelta: 7.550674200000003,
         },
       },
       {
@@ -944,10 +890,10 @@ const Continents: {
         capital: "Beirut",
         continent: "Asia",
         region: {
-          latitude: -76.4508668,
-          longitude: 40.3199193,
-          latitudeDelta: 0.058901800000001,
-          longitudeDelta: 0.03588269999999483,
+          latitude: 40.337860649999996,
+          longitude: -76.4214159,
+          latitudeDelta: 0.03588269999999483,
+          longitudeDelta: 0.058901800000001,
         },
       },
       {
@@ -955,8 +901,8 @@ const Continents: {
         capital: "Kuala Lumpur",
         continent: "Asia",
         region: {
-          latitude: 105.3471939,
-          longitude: -5.1076241,
+          latitude: 2.3923758999999998,
+          longitude: 112.8471939,
           latitudeDelta: 15,
           longitudeDelta: 15,
         },
@@ -966,10 +912,10 @@ const Continents: {
         capital: "Male",
         continent: "Asia",
         region: {
-          latitude: 55.1823199,
-          longitude: 25.2252959,
-          latitudeDelta: 0.001426999999999623,
-          longitudeDelta: 0.0010810000000027742,
+          latitude: 25.2258364,
+          longitude: 55.1830334,
+          latitudeDelta: 0.0010810000000027742,
+          longitudeDelta: 0.001426999999999623,
         },
       },
       {
@@ -977,10 +923,10 @@ const Continents: {
         capital: "Ulaanbaatar",
         continent: "Asia",
         region: {
-          latitude: 87.73762,
-          longitude: 41.5800276,
-          latitudeDelta: 32.194328999999996,
-          longitudeDelta: 10.569572399999998,
+          latitude: 46.8648138,
+          longitude: 103.83478450000001,
+          latitudeDelta: 10.569572399999998,
+          longitudeDelta: 32.194328999999996,
         },
       },
       {
@@ -988,10 +934,10 @@ const Continents: {
         capital: "Kathmandu",
         continent: "Asia",
         region: {
-          latitude: 80.0586226,
-          longitude: 26.3477581,
-          latitudeDelta: 8.142903099999998,
-          longitudeDelta: 4.099186899999999,
+          latitude: 28.39735155,
+          longitude: 84.13007415000001,
+          latitudeDelta: 4.099186899999999,
+          longitudeDelta: 8.142903099999998,
         },
       },
       {
@@ -999,10 +945,10 @@ const Continents: {
         capital: "Muscat",
         continent: "Asia",
         region: {
-          latitude: 55.1759911,
-          longitude: 25.2268538,
-          latitudeDelta: 0.0013761000000016566,
-          longitudeDelta: 0.002281400000001099,
+          latitude: 25.2279945,
+          longitude: 55.17667915,
+          latitudeDelta: 0.002281400000001099,
+          longitudeDelta: 0.0013761000000016566,
         },
       },
       {
@@ -1010,10 +956,10 @@ const Continents: {
         capital: "Islamabad",
         continent: "Asia",
         region: {
-          latitude: 60.872855,
-          longitude: 23.5393916,
-          latitudeDelta: 16.2475364,
-          longitudeDelta: 13.544715400000005,
+          latitude: 30.311749300000002,
+          longitude: 68.9966232,
+          latitudeDelta: 13.544715400000005,
+          longitudeDelta: 16.2475364,
         },
       },
       {
@@ -1021,10 +967,10 @@ const Continents: {
         capital: "Manila",
         continent: "Asia",
         region: {
-          latitude: 114.0952145,
-          longitude: 4.2158064,
-          latitudeDelta: 12.7120417,
-          longitudeDelta: 17.1059742,
+          latitude: 12.768793500000001,
+          longitude: 120.45123534999999,
+          latitudeDelta: 17.1059742,
+          longitudeDelta: 12.7120417,
         },
       },
       {
@@ -1032,10 +978,10 @@ const Continents: {
         capital: "Doha",
         continent: "Asia",
         region: {
-          latitude: 55.1726803,
-          longitude: 25.2271767,
-          latitudeDelta: 0.0014681999999979212,
-          longitudeDelta: 0.0018074000000005697,
+          latitude: 25.228080400000003,
+          longitude: 55.1734144,
+          latitudeDelta: 0.0018074000000005697,
+          longitudeDelta: 0.0014681999999979212,
         },
       },
       {
@@ -1043,10 +989,10 @@ const Continents: {
         capital: "Riyadh",
         continent: "Asia",
         region: {
-          latitude: 121.0177023,
-          longitude: 14.4840316,
-          latitudeDelta: 0.008841799999999012,
-          longitudeDelta: 0.000658100000000772,
+          latitude: 14.48436065,
+          longitude: 121.0221232,
+          latitudeDelta: 0.000658100000000772,
+          longitudeDelta: 0.008841799999999012,
         },
       },
       {
@@ -1054,10 +1000,10 @@ const Continents: {
         capital: "Singapore",
         continent: "Asia",
         region: {
-          latitude: 103.6920359,
-          longitude: 1.1304753,
-          latitudeDelta: 0.3200000000000074,
-          longitudeDelta: 0.31999999999999984,
+          latitude: 1.2904753,
+          longitude: 103.8520359,
+          latitudeDelta: 0.31999999999999984,
+          longitudeDelta: 0.3200000000000074,
         },
       },
       {
@@ -1065,10 +1011,10 @@ const Continents: {
         capital: "Colombo",
         continent: "Asia",
         region: {
-          latitude: 55.1813071,
-          longitude: 25.2287738,
-          latitudeDelta: 0.0015452000000024668,
-          longitudeDelta: 0.0015312999999999022,
+          latitude: 25.229539449999997,
+          longitude: 55.1820797,
+          latitudeDelta: 0.0015312999999999022,
+          longitudeDelta: 0.0015452000000024668,
         },
       },
       {
@@ -1076,8 +1022,8 @@ const Continents: {
         capital: "Damascus",
         continent: "Asia",
         region: {
-          latitude: 31.5494106,
-          longitude: 27.1401861,
+          latitude: 34.6401861,
+          longitude: 39.0494106,
           latitudeDelta: 15,
           longitudeDelta: 15,
         },
@@ -1087,10 +1033,10 @@ const Continents: {
         capital: "Taipei",
         continent: "Asia",
         region: {
-          latitude: 6.0296969,
-          longitude: 50.8832129,
-          latitudeDelta: 0.00009999999999976694,
-          longitudeDelta: 0.00010000000000331966,
+          latitude: 50.8832629,
+          longitude: 6.0297469,
+          latitudeDelta: 0.00010000000000331966,
+          longitudeDelta: 0.00009999999999976694,
         },
       },
       {
@@ -1098,10 +1044,10 @@ const Continents: {
         capital: "Dushanbe",
         continent: "Asia",
         region: {
-          latitude: 67.3332775,
-          longitude: 36.6711153,
-          latitudeDelta: 7.82067880000001,
-          longitudeDelta: 4.373978200000003,
+          latitude: 38.8581044,
+          longitude: 71.2436169,
+          latitudeDelta: 4.373978200000003,
+          longitudeDelta: 7.82067880000001,
         },
       },
       {
@@ -1109,10 +1055,10 @@ const Continents: {
         capital: "Bangkok",
         continent: "Asia",
         region: {
-          latitude: 97.3438072,
-          longitude: 5.612851,
-          latitudeDelta: 8.293004800000006,
-          longitudeDelta: 14.8519827,
+          latitude: 13.03884235,
+          longitude: 101.4903096,
+          latitudeDelta: 14.8519827,
+          longitudeDelta: 8.293004800000006,
         },
       },
       {
@@ -1120,10 +1066,10 @@ const Continents: {
         capital: "Dili",
         continent: "Asia",
         region: {
-          latitude: 106.9549541,
-          longitude: -6.3294157,
-          latitudeDelta: 0.0002214000000009264,
-          longitudeDelta: 0.0009318000000000382,
+          latitude: -6.3289498,
+          longitude: 106.9550648,
+          latitudeDelta: 0.0009318000000000382,
+          longitudeDelta: 0.0002214000000009264,
         },
       },
       {
@@ -1131,10 +1077,10 @@ const Continents: {
         capital: "Ashgabat",
         continent: "Asia",
         region: {
-          latitude: 52.335076,
-          longitude: 35.129093,
-          latitudeDelta: 14.354441699999995,
-          longitudeDelta: 7.668464100000001,
+          latitude: 38.963325049999995,
+          longitude: 59.51229685,
+          latitudeDelta: 7.668464100000001,
+          longitudeDelta: 14.354441699999995,
         },
       },
       {
@@ -1142,10 +1088,10 @@ const Continents: {
         capital: "Abu Dhabi",
         continent: "Asia",
         region: {
-          latitude: 51.498,
-          longitude: 22.6444,
-          latitudeDelta: 4.885400000000004,
-          longitudeDelta: 3.6377999999999986,
+          latitude: 24.4633,
+          longitude: 53.9407,
+          latitudeDelta: 3.6377999999999986,
+          longitudeDelta: 4.885400000000004,
         },
       },
       {
@@ -1153,10 +1099,10 @@ const Continents: {
         capital: "Tashkent",
         continent: "Asia",
         region: {
-          latitude: 55.9977865,
-          longitude: 37.1821164,
-          latitudeDelta: 17.141949700000005,
-          longitudeDelta: 8.408001599999999,
+          latitude: 41.3861172,
+          longitude: 64.56876135,
+          latitudeDelta: 8.408001599999999,
+          longitudeDelta: 17.141949700000005,
         },
       },
       {
@@ -1164,10 +1110,10 @@ const Continents: {
         capital: "Hanoi",
         continent: "Asia",
         region: {
-          latitude: 102.14441,
-          longitude: 8.1790665,
-          latitudeDelta: 12.189349500000006,
-          longitudeDelta: 15.214328500000002,
+          latitude: 15.786230750000001,
+          longitude: 108.23908474999999,
+          latitudeDelta: 15.214328500000002,
+          longitudeDelta: 12.189349500000006,
         },
       },
       {
@@ -1175,10 +1121,10 @@ const Continents: {
         capital: "Sanaa",
         continent: "Asia",
         region: {
-          latitude: 41.60825,
-          longitude: 11.9084802,
-          latitudeDelta: 13.1306875,
-          longitudeDelta: 7.0915198,
+          latitude: 15.4542401,
+          longitude: 48.173593749999995,
+          latitudeDelta: 7.0915198,
+          longitudeDelta: 13.1306875,
         },
       },
       {
@@ -1186,20 +1132,20 @@ const Continents: {
         capital: "N/A",
         continent: "Asia",
         region: {
-          latitude: 114.0028131,
-          longitude: 22.1193278,
-          latitudeDelta: 0.3200000000000074,
-          longitudeDelta: 0.3200000000000003,
+          latitude: 22.2793278,
+          longitude: 114.1628131,
+          latitudeDelta: 0.3200000000000003,
+          longitudeDelta: 0.3200000000000074,
         },
       },
     ],
   },
   Europe: {
     region: {
-      latitude: 37.300275,
-      longitude: -24.785156,
-      latitudeDelta: 33.544398,
-      longitudeDelta: 69.433594,
+      latitude: 50.5,
+      longitude: 4,
+      latitudeDelta: 27,
+      longitudeDelta: 70,
     },
     countries: [
       {
@@ -1207,10 +1153,10 @@ const Continents: {
         capital: "Mariehamn",
         continent: "Europe",
         region: {
-          latitude: 19.0832098,
-          longitude: 59.4541578,
-          latitudeDelta: 2.262445800000002,
-          longitudeDelta: 1.4224922000000007,
+          latitude: 60.1654039,
+          longitude: 20.2144327,
+          latitudeDelta: 1.4224922000000007,
+          longitudeDelta: 2.262445800000002,
         },
       },
       {
@@ -1218,10 +1164,10 @@ const Continents: {
         capital: "Tirana",
         continent: "Europe",
         region: {
-          latitude: -72.6598913,
-          longitude: 11.081041,
-          latitudeDelta: 0.25597849999999767,
-          longitudeDelta: 0.32775,
+          latitude: 11.244916,
+          longitude: -72.53190205,
+          latitudeDelta: 0.32775,
+          longitudeDelta: 0.25597849999999767,
         },
       },
       {
@@ -1229,10 +1175,10 @@ const Continents: {
         capital: "Andorra la Vella",
         continent: "Europe",
         region: {
-          latitude: 1.4135781,
-          longitude: 42.4288238,
-          latitudeDelta: 0.37280559999999996,
-          longitudeDelta: 0.22711189999999704,
+          latitude: 42.54237975,
+          longitude: 1.5999809,
+          latitudeDelta: 0.22711189999999704,
+          longitudeDelta: 0.37280559999999996,
         },
       },
       {
@@ -1240,10 +1186,10 @@ const Continents: {
         capital: "Yerevan",
         continent: "Europe",
         region: {
-          latitude: -75.7854388,
-          longitude: 4.3951997,
-          latitudeDelta: 0.15291769999998905,
-          longitudeDelta: 0.19437709999999964,
+          latitude: 4.492388249999999,
+          longitude: -75.70897995,
+          latitudeDelta: 0.19437709999999964,
+          longitudeDelta: 0.15291769999998905,
         },
       },
       {
@@ -1251,10 +1197,10 @@ const Continents: {
         capital: "Vienna",
         continent: "Europe",
         region: {
-          latitude: 9.5307487,
-          longitude: 46.3722761,
-          latitudeDelta: 7.630027299999998,
-          longitudeDelta: 2.648254399999999,
+          latitude: 47.6964033,
+          longitude: 13.34576235,
+          latitudeDelta: 2.648254399999999,
+          longitudeDelta: 7.630027299999998,
         },
       },
       {
@@ -1262,10 +1208,10 @@ const Continents: {
         capital: "Baku",
         continent: "Europe",
         region: {
-          latitude: 44.7633701,
-          longitude: 38.3929551,
-          latitudeDelta: 6.245660099999995,
-          longitudeDelta: 3.557339599999999,
+          latitude: 40.1716249,
+          longitude: 47.88620015,
+          latitudeDelta: 3.557339599999999,
+          longitudeDelta: 6.245660099999995,
         },
       },
       {
@@ -1273,10 +1219,10 @@ const Continents: {
         capital: "Minsk",
         continent: "Europe",
         region: {
-          latitude: 23.1783344,
-          longitude: 51.2575982,
-          latitudeDelta: 9.584446500000002,
-          longitudeDelta: 4.9145818000000006,
+          latitude: 53.71488909999999,
+          longitude: 27.970557650000003,
+          latitudeDelta: 4.9145818000000006,
+          longitudeDelta: 9.584446500000002,
         },
       },
       {
@@ -1284,10 +1230,10 @@ const Continents: {
         capital: "Brussels",
         continent: "Europe",
         region: {
-          latitude: 2.3889137,
-          longitude: 49.4969821,
-          latitudeDelta: 4.0191833,
-          longitudeDelta: 2.0546846000000016,
+          latitude: 50.5243244,
+          longitude: 4.39850535,
+          latitudeDelta: 2.0546846000000016,
+          longitudeDelta: 4.0191833,
         },
       },
       {
@@ -1295,10 +1241,10 @@ const Continents: {
         capital: "Sarajevo",
         continent: "Europe",
         region: {
-          latitude: 15.7287433,
-          longitude: 42.5553114,
-          latitudeDelta: 3.894987800000001,
-          longitudeDelta: 2.721102099999996,
+          latitude: 43.91586245,
+          longitude: 17.6762372,
+          latitudeDelta: 2.721102099999996,
+          longitudeDelta: 3.894987800000001,
         },
       },
       {
@@ -1306,10 +1252,10 @@ const Continents: {
         capital: "Sofia",
         continent: "Europe",
         region: {
-          latitude: 22.3571459,
-          longitude: 41.2353929,
-          latitudeDelta: 6.530395000000002,
-          longitudeDelta: 2.981313499999999,
+          latitude: 42.72604965,
+          longitude: 25.6223434,
+          latitudeDelta: 2.981313499999999,
+          longitudeDelta: 6.530395000000002,
         },
       },
       {
@@ -1317,10 +1263,10 @@ const Continents: {
         capital: "Zagreb",
         continent: "Europe",
         region: {
-          latitude: 13.2104814,
-          longitude: 42.1765993,
-          latitudeDelta: 6.236602799999998,
-          longitudeDelta: 4.378429699999998,
+          latitude: 44.36581415,
+          longitude: 16.3287828,
+          latitudeDelta: 4.378429699999998,
+          longitudeDelta: 6.236602799999998,
         },
       },
       {
@@ -1328,10 +1274,10 @@ const Continents: {
         capital: "Nicosia",
         continent: "Europe",
         region: {
-          latitude: 25.6451285,
-          longitude: 27.4823018,
-          latitudeDelta: 15,
-          longitudeDelta: 15.000000000000004,
+          latitude: 34.9823018,
+          longitude: 33.1451285,
+          latitudeDelta: 15.000000000000004,
+          longitudeDelta: 15,
         },
       },
       {
@@ -1339,10 +1285,10 @@ const Continents: {
         capital: "Prague",
         continent: "Europe",
         region: {
-          latitude: 12.0905901,
-          longitude: 48.5518083,
-          latitudeDelta: 6.7686259,
-          longitudeDelta: 2.5038953000000035,
+          latitude: 49.803755949999996,
+          longitude: 15.47490305,
+          latitudeDelta: 2.5038953000000035,
+          longitudeDelta: 6.7686259,
         },
       },
       {
@@ -1350,10 +1296,10 @@ const Continents: {
         capital: "Copenhagen",
         continent: "Europe",
         region: {
-          latitude: 7.7153255,
-          longitude: 54.4516667,
-          latitudeDelta: 7.837738600000001,
-          longitudeDelta: 3.5007630000000063,
+          latitude: 56.2020482,
+          longitude: 11.6341948,
+          latitudeDelta: 3.5007630000000063,
+          longitudeDelta: 7.837738600000001,
         },
       },
       {
@@ -1361,10 +1307,10 @@ const Continents: {
         capital: "Tallinn",
         continent: "Europe",
         region: {
-          latitude: 21.3826069,
-          longitude: 57.5092997,
-          latitudeDelta: 6.8274106,
-          longitudeDelta: 2.4290756999999985,
+          latitude: 58.72383755,
+          longitude: 24.7963122,
+          latitudeDelta: 2.4290756999999985,
+          longitudeDelta: 6.8274106,
         },
       },
       {
@@ -1372,10 +1318,10 @@ const Continents: {
         capital: "Torshavn",
         continent: "Europe",
         region: {
-          latitude: -7.6882939,
-          longitude: 61.3915553,
-          latitudeDelta: 1.4317414,
-          longitudeDelta: 1.0027437999999975,
+          latitude: 61.8929272,
+          longitude: -6.9724232,
+          latitudeDelta: 1.0027437999999975,
+          longitudeDelta: 1.4317414,
         },
       },
       {
@@ -1383,10 +1329,10 @@ const Continents: {
         capital: "Helsinki",
         continent: "Europe",
         region: {
-          latitude: 19.0832098,
-          longitude: 59.4541578,
-          latitudeDelta: 12.503497300000003,
-          longitudeDelta: 10.638136100000004,
+          latitude: 64.77322585,
+          longitude: 25.334958450000002,
+          latitudeDelta: 10.638136100000004,
+          longitudeDelta: 12.503497300000003,
         },
       },
       {
@@ -1394,10 +1340,10 @@ const Continents: {
         capital: "Paris",
         continent: "Europe",
         region: {
-          latitude: -5.4534286,
-          longitude: 41.2632185,
-          latitudeDelta: 15.321262999999998,
-          longitudeDelta: 10.0050995,
+          latitude: 46.26576825,
+          longitude: 2.2072029,
+          latitudeDelta: 10.0050995,
+          longitudeDelta: 15.321262999999998,
         },
       },
       {
@@ -1405,10 +1351,10 @@ const Continents: {
         capital: "Tbilisi",
         continent: "Europe",
         region: {
-          latitude: -85.6051201,
-          longitude: 30.355757,
-          latitudeDelta: 4.853687999999991,
-          longitudeDelta: 4.645597399999996,
+          latitude: 32.6785557,
+          longitude: -83.1782761,
+          latitudeDelta: 4.645597399999996,
+          longitudeDelta: 4.853687999999991,
         },
       },
       {
@@ -1416,10 +1362,10 @@ const Continents: {
         capital: "Berlin",
         continent: "Europe",
         region: {
-          latitude: 5.8663153,
-          longitude: 47.2701114,
-          latitudeDelta: 9.1756166,
-          longitudeDelta: 7.829049600000005,
+          latitude: 51.1846362,
+          longitude: 10.454123599999999,
+          latitudeDelta: 7.829049600000005,
+          longitudeDelta: 9.1756166,
         },
       },
       {
@@ -1427,10 +1373,10 @@ const Continents: {
         capital: "Gibraltar",
         continent: "Europe",
         region: {
-          latitude: -5.3941295,
-          longitude: 36.100807,
-          latitudeDelta: 0.08000000000000007,
-          longitudeDelta: 0.0799999999999983,
+          latitude: 36.140807,
+          longitude: -5.3541295,
+          latitudeDelta: 0.0799999999999983,
+          longitudeDelta: 0.08000000000000007,
         },
       },
       {
@@ -1438,10 +1384,10 @@ const Continents: {
         capital: "Athens",
         continent: "Europe",
         region: {
-          latitude: 19.2477876,
-          longitude: 34.7006096,
-          latitudeDelta: 10.481911,
-          longitudeDelta: 7.048276600000001,
+          latitude: 38.2247479,
+          longitude: 24.4887431,
+          latitudeDelta: 7.048276600000001,
+          longitudeDelta: 10.481911,
         },
       },
       {
@@ -1449,10 +1395,10 @@ const Continents: {
         capital: "Saint Peter Port",
         continent: "Europe",
         region: {
-          latitude: -2.6751703,
-          longitude: 49.4155331,
-          latitudeDelta: 0.17335630000000002,
-          longitudeDelta: 0.09354450000000014,
+          latitude: 49.462305349999994,
+          longitude: -2.58849215,
+          latitudeDelta: 0.09354450000000014,
+          longitudeDelta: 0.17335630000000002,
         },
       },
       {
@@ -1460,10 +1406,10 @@ const Continents: {
         capital: "Budapest",
         continent: "Europe",
         region: {
-          latitude: 16.1138867,
-          longitude: 45.737128,
-          latitudeDelta: 6.783822700000002,
-          longitudeDelta: 2.848129,
+          latitude: 47.1611925,
+          longitude: 19.50579805,
+          latitudeDelta: 2.848129,
+          longitudeDelta: 6.783822700000002,
         },
       },
       {
@@ -1471,10 +1417,10 @@ const Continents: {
         capital: "Reykjavik",
         continent: "Europe",
         region: {
-          latitude: 0.5475318,
-          longitude: 51.3863696,
-          latitudeDelta: 0.00038439999999995145,
-          longitudeDelta: 0.0004579000000006772,
+          latitude: 51.38659855,
+          longitude: 0.547724,
+          latitudeDelta: 0.0004579000000006772,
+          longitudeDelta: 0.00038439999999995145,
         },
       },
       {
@@ -1482,10 +1428,10 @@ const Continents: {
         capital: "Dublin",
         continent: "Europe",
         region: {
-          latitude: -11.0133788,
-          longitude: 51.222,
-          latitudeDelta: 5.3551424999999995,
-          longitudeDelta: 4.4140000000000015,
+          latitude: 53.429,
+          longitude: -8.33580755,
+          latitudeDelta: 4.4140000000000015,
+          longitudeDelta: 5.3551424999999995,
         },
       },
       {
@@ -1493,10 +1439,10 @@ const Continents: {
         capital: "Douglas",
         continent: "Europe",
         region: {
-          latitude: -4.7946845,
-          longitude: 54.0539576,
-          latitudeDelta: 0.48699919999999963,
-          longitudeDelta: 0.36391290000000254,
+          latitude: 54.23591405,
+          longitude: -4.5511849,
+          latitudeDelta: 0.36391290000000254,
+          longitudeDelta: 0.48699919999999963,
         },
       },
       {
@@ -1504,10 +1450,10 @@ const Continents: {
         capital: "Rome",
         continent: "Europe",
         region: {
-          latitude: 6.6272658,
-          longitude: 35.2889616,
-          latitudeDelta: 12.1572088,
-          longitudeDelta: 11.803184600000002,
+          latitude: 41.1905539,
+          longitude: 12.7058702,
+          latitudeDelta: 11.803184600000002,
+          longitudeDelta: 12.1572088,
         },
       },
       {
@@ -1515,10 +1461,10 @@ const Continents: {
         capital: "Saint Helier",
         continent: "Europe",
         region: {
-          latitude: -2.254512,
-          longitude: 49.1625179,
-          latitudeDelta: 0.24409269999999994,
-          longitudeDelta: 0.09961090000000183,
+          latitude: 49.21232335,
+          longitude: -2.1324656500000003,
+          latitudeDelta: 0.09961090000000183,
+          longitudeDelta: 0.24409269999999994,
         },
       },
       {
@@ -1526,10 +1472,10 @@ const Continents: {
         capital: "Riga",
         continent: "Europe",
         region: {
-          latitude: 20.6715407,
-          longitude: 55.6746505,
-          latitudeDelta: 7.569949699999999,
-          longitudeDelta: 2.4109182999999987,
+          latitude: 56.880109649999994,
+          longitude: 24.45651555,
+          latitudeDelta: 2.4109182999999987,
+          longitudeDelta: 7.569949699999999,
         },
       },
       {
@@ -1537,10 +1483,10 @@ const Continents: {
         capital: "Vaduz",
         continent: "Europe",
         region: {
-          latitude: 9.4716736,
-          longitude: 47.0484291,
-          latitudeDelta: 0.16404069999999926,
-          longitudeDelta: 0.22215190000000007,
+          latitude: 47.15950505,
+          longitude: 9.55369395,
+          latitudeDelta: 0.22215190000000007,
+          longitudeDelta: 0.16404069999999926,
         },
       },
       {
@@ -1548,10 +1494,10 @@ const Continents: {
         capital: "Vilnius",
         continent: "Europe",
         region: {
-          latitude: 20.653783,
-          longitude: 53.8967893,
-          latitudeDelta: 6.1817367999999995,
-          longitudeDelta: 2.5536320000000003,
+          latitude: 55.173605300000006,
+          longitude: 23.744651400000002,
+          latitudeDelta: 2.5536320000000003,
+          longitudeDelta: 6.1817367999999995,
         },
       },
       {
@@ -1559,10 +1505,10 @@ const Continents: {
         capital: "Luxembourg",
         continent: "Europe",
         region: {
-          latitude: 4.9684415,
-          longitude: 49.4969821,
-          latitudeDelta: 1.0659839,
-          longitudeDelta: 0.9333949000000032,
+          latitude: 49.963679549999995,
+          longitude: 5.50143345,
+          latitudeDelta: 0.9333949000000032,
+          longitudeDelta: 1.0659839,
         },
       },
       {
@@ -1570,10 +1516,10 @@ const Continents: {
         capital: "Skopje",
         continent: "Europe",
         region: {
-          latitude: 20.4529023,
-          longitude: 40.8536596,
-          latitudeDelta: 2.5811487,
-          longitudeDelta: 1.5198763,
+          latitude: 41.61359775,
+          longitude: 21.74347665,
+          latitudeDelta: 1.5198763,
+          longitudeDelta: 2.5811487,
         },
       },
       {
@@ -1581,10 +1527,10 @@ const Continents: {
         capital: "Valletta",
         continent: "Europe",
         region: {
-          latitude: 13.9324226,
-          longitude: 35.6029696,
-          latitudeDelta: 0.8943739999999991,
-          longitudeDelta: 0.6823009999999954,
+          latitude: 35.9441201,
+          longitude: 14.3796096,
+          latitudeDelta: 0.6823009999999954,
+          longitudeDelta: 0.8943739999999991,
         },
       },
       {
@@ -1592,10 +1538,10 @@ const Continents: {
         capital: "Chisinau",
         continent: "Europe",
         region: {
-          latitude: 29.7521496,
-          longitude: 46.6744934,
-          latitudeDelta: 0.00009999999999976694,
-          longitudeDelta: 0.00009999999999621423,
+          latitude: 46.674543400000005,
+          longitude: 29.752199599999997,
+          latitudeDelta: 0.00009999999999621423,
+          longitudeDelta: 0.00009999999999976694,
         },
       },
       {
@@ -1603,10 +1549,10 @@ const Continents: {
         capital: "Monaco",
         continent: "Europe",
         region: {
-          latitude: 7.4090279,
-          longitude: 43.7247599,
-          latitudeDelta: 0.030842500000000328,
-          longitudeDelta: 0.027171199999997953,
+          latitude: 43.7383455,
+          longitude: 7.42444915,
+          latitudeDelta: 0.027171199999997953,
+          longitudeDelta: 0.030842500000000328,
         },
       },
       {
@@ -1614,10 +1560,10 @@ const Continents: {
         capital: "Podgorica",
         continent: "Europe",
         region: {
-          latitude: -51.662,
-          longitude: -29.8446455,
-          latitudeDelta: 0.312180699999999,
-          longitudeDelta: 0.2703112999999995,
+          latitude: -29.709489849999997,
+          longitude: -51.50590965,
+          latitudeDelta: 0.2703112999999995,
+          longitudeDelta: 0.312180699999999,
         },
       },
       {
@@ -1625,10 +1571,10 @@ const Continents: {
         capital: "Amsterdam",
         continent: "Europe",
         region: {
-          latitude: -68.6255319,
-          longitude: 11.825,
-          latitudeDelta: 75.8530304,
-          longitudeDelta: 41.9003321,
+          latitude: 32.77516605,
+          longitude: -30.699016699999998,
+          latitudeDelta: 41.9003321,
+          longitudeDelta: 75.8530304,
         },
       },
       {
@@ -1636,10 +1582,10 @@ const Continents: {
         capital: "Oslo",
         continent: "Europe",
         region: {
-          latitude: 4.0875274,
-          longitude: 57.7590052,
-          latitudeDelta: 27.6739637,
-          longitudeDelta: 13.625873500000004,
+          latitude: 64.57194195,
+          longitude: 17.92450925,
+          latitudeDelta: 13.625873500000004,
+          longitudeDelta: 27.6739637,
         },
       },
       {
@@ -1647,10 +1593,10 @@ const Continents: {
         capital: "Warsaw",
         continent: "Europe",
         region: {
-          latitude: 14.1229707,
-          longitude: 49.0020468,
-          latitudeDelta: 10.022812300000002,
-          longitudeDelta: 6.0316495,
+          latitude: 52.01787155,
+          longitude: 19.134376850000002,
+          latitudeDelta: 6.0316495,
+          longitudeDelta: 10.022812300000002,
         },
       },
       {
@@ -1658,10 +1604,10 @@ const Continents: {
         capital: "Lisbon",
         continent: "Europe",
         region: {
-          latitude: -31.5575303,
-          longitude: 29.8288021,
-          latitudeDelta: 25.368371,
-          longitudeDelta: 12.325509100000001,
+          latitude: 35.99155665,
+          longitude: -18.873344799999998,
+          latitudeDelta: 12.325509100000001,
+          longitudeDelta: 25.368371,
         },
       },
       {
@@ -1669,10 +1615,10 @@ const Continents: {
         capital: "Bucharest",
         continent: "Europe",
         region: {
-          latitude: 20.2619773,
-          longitude: 43.618682,
-          latitudeDelta: 9.783448399999997,
-          longitudeDelta: 4.6467144000000005,
+          latitude: 45.942039199999996,
+          longitude: 25.1537015,
+          latitudeDelta: 4.6467144000000005,
+          longitudeDelta: 9.783448399999997,
         },
       },
       {
@@ -1680,10 +1626,10 @@ const Continents: {
         capital: "Moscow",
         continent: "Europe",
         region: {
-          latitude: 19.6389,
-          longitude: 41.1850968,
-          latitudeDelta: 160.3611,
-          longitudeDelta: 40.8735264,
+          latitude: 61.62186,
+          longitude: 99.81945,
+          latitudeDelta: 40.8735264,
+          longitudeDelta: 160.3611,
         },
       },
       {
@@ -1691,10 +1637,10 @@ const Continents: {
         capital: "San Marino",
         continent: "Europe",
         region: {
-          latitude: 12.4033246,
-          longitude: 43.8937002,
-          latitudeDelta: 0.1127419000000014,
-          longitudeDelta: 0.09839279999999917,
+          latitude: 43.9428966,
+          longitude: 12.45969555,
+          latitudeDelta: 0.09839279999999917,
+          longitudeDelta: 0.1127419000000014,
         },
       },
       {
@@ -1702,10 +1648,10 @@ const Continents: {
         capital: "Belgrade",
         continent: "Europe",
         region: {
-          latitude: 18.8142875,
-          longitude: 42.2322435,
-          latitudeDelta: 4.192021500000003,
-          longitudeDelta: 3.9578088999999963,
+          latitude: 44.21114795,
+          longitude: 20.91029825,
+          latitudeDelta: 3.9578088999999963,
+          longitudeDelta: 4.192021500000003,
         },
       },
       {
@@ -1713,10 +1659,10 @@ const Continents: {
         capital: "Bratislava",
         continent: "Europe",
         region: {
-          latitude: 16.8331891,
-          longitude: 47.7314286,
-          latitudeDelta: 5.732520900000001,
-          longitudeDelta: 1.8823876000000013,
+          latitude: 48.6726224,
+          longitude: 19.699449549999997,
+          latitudeDelta: 1.8823876000000013,
+          longitudeDelta: 5.732520900000001,
         },
       },
       {
@@ -1724,10 +1670,10 @@ const Continents: {
         capital: "Ljubljana",
         continent: "Europe",
         region: {
-          latitude: 13.3754696,
-          longitude: 45.4214242,
-          latitudeDelta: 3.221300600000001,
-          longitudeDelta: 1.4552574000000007,
+          latitude: 46.1490529,
+          longitude: 14.986119900000002,
+          latitudeDelta: 1.4552574000000007,
+          longitudeDelta: 3.221300600000001,
         },
       },
       {
@@ -1735,10 +1681,10 @@ const Continents: {
         capital: "Madrid",
         continent: "Europe",
         region: {
-          latitude: -18.3936845,
-          longitude: 27.4335426,
-          latitudeDelta: 22.985573,
-          longitudeDelta: 16.559766200000002,
+          latitude: 35.7134257,
+          longitude: -6.900898,
+          latitudeDelta: 16.559766200000002,
+          longitudeDelta: 22.985573,
         },
       },
       {
@@ -1746,10 +1692,10 @@ const Continents: {
         capital: "Longyearbyen",
         continent: "Europe",
         region: {
-          latitude: -9.6848146,
-          longitude: 70.6260825,
-          latitudeDelta: 44.373939899999996,
-          longitudeDelta: 10.401993500000003,
+          latitude: 75.82707925,
+          longitude: 12.50215535,
+          latitudeDelta: 10.401993500000003,
+          longitudeDelta: 44.373939899999996,
         },
       },
       {
@@ -1757,10 +1703,10 @@ const Continents: {
         capital: "Stockholm",
         continent: "Europe",
         region: {
-          latitude: 10.5930952,
-          longitude: 55.1331192,
-          latitudeDelta: 13.5845867,
-          longitudeDelta: 13.926850699999996,
+          latitude: 62.096544550000004,
+          longitude: 17.385388550000002,
+          latitudeDelta: 13.926850699999996,
+          longitudeDelta: 13.5845867,
         },
       },
       {
@@ -1768,10 +1714,10 @@ const Continents: {
         capital: "Bern",
         continent: "Europe",
         region: {
-          latitude: 5.9559113,
-          longitude: 45.817995,
-          latitudeDelta: 4.5363828,
-          longitudeDelta: 1.9904697999999996,
+          latitude: 46.8132299,
+          longitude: 8.2241027,
+          latitudeDelta: 1.9904697999999996,
+          longitudeDelta: 4.5363828,
         },
       },
       {
@@ -1779,10 +1725,10 @@ const Continents: {
         capital: "Ankara",
         continent: "Europe",
         region: {
-          latitude: 25.6212891,
-          longitude: 35.8076804,
-          latitudeDelta: 19.1963747,
-          longitudeDelta: 6.489319599999995,
+          latitude: 39.0523402,
+          longitude: 35.21947645,
+          latitudeDelta: 6.489319599999995,
+          longitudeDelta: 19.1963747,
         },
       },
       {
@@ -1790,10 +1736,10 @@ const Continents: {
         capital: "Kyiv",
         continent: "Europe",
         region: {
-          latitude: 22.137059,
-          longitude: 44.184598,
-          latitudeDelta: 18.090521099999997,
-          longitudeDelta: 8.194549299999998,
+          latitude: 48.28187265,
+          longitude: 31.18231955,
+          latitudeDelta: 8.194549299999998,
+          longitudeDelta: 18.090521099999997,
         },
       },
       {
@@ -1801,20 +1747,20 @@ const Continents: {
         capital: "London",
         continent: "Europe",
         region: {
-          latitude: 55.1579517,
-          longitude: 25.2223186,
-          latitudeDelta: 0.0027399000000016827,
-          longitudeDelta: 0.001846499999999196,
+          latitude: 25.22324185,
+          longitude: 55.159321649999995,
+          latitudeDelta: 0.001846499999999196,
+          longitudeDelta: 0.0027399000000016827,
         },
       },
     ],
   },
   Australia: {
     region: {
-      latitude: -46.914583,
-      longitude: 94.71998,
-      latitudeDelta: 53.412817000000004,
-      longitudeDelta: 84.02343699999999,
+      latitude: -25,
+      longitude: 144,
+      latitudeDelta: 36,
+      longitudeDelta: 66,
     },
     countries: [
       {
@@ -1822,10 +1768,10 @@ const Continents: {
         capital: "Yaren",
         continent: "Australia",
         region: {
-          latitude: 166.9091794,
-          longitude: -0.5541334,
-          latitudeDelta: 0.04974409999999807,
-          longitudeDelta: 0.0515428,
+          latitude: -0.528362,
+          longitude: 166.93405145,
+          latitudeDelta: 0.0515428,
+          longitudeDelta: 0.04974409999999807,
         },
       },
       {
@@ -1833,10 +1779,10 @@ const Continents: {
         capital: "Atafu",
         continent: "Australia",
         region: {
-          latitude: -172.7213673,
-          longitude: -9.6442499,
-          latitudeDelta: 1.7416087000000005,
-          longitudeDelta: 1.3113867999999993,
+          latitude: -8.988556500000001,
+          longitude: -171.85056294999998,
+          latitudeDelta: 1.3113867999999993,
+          longitudeDelta: 1.7416087000000005,
         },
       },
       {
@@ -1844,10 +1790,10 @@ const Continents: {
         capital: "Pago Pago",
         continent: "Australia",
         region: {
-          latitude: -171.2951296,
-          longitude: -14.7608358,
-          latitudeDelta: 3.362839699999995,
-          longitudeDelta: 3.9158612,
+          latitude: -12.802905200000001,
+          longitude: -169.61370975,
+          latitudeDelta: 3.9158612,
+          longitudeDelta: 3.362839699999995,
         },
       },
       {
@@ -1855,10 +1801,10 @@ const Continents: {
         capital: "Canberra",
         continent: "Australia",
         region: {
-          latitude: 72.2460938,
-          longitude: -55.3228175,
-          latitudeDelta: 95.97886050000001,
-          longitudeDelta: 46.2345897,
+          latitude: -32.20552265,
+          longitude: 120.23552405000001,
+          latitudeDelta: 46.2345897,
+          longitudeDelta: 95.97886050000001,
         },
       },
       {
@@ -1866,10 +1812,10 @@ const Continents: {
         capital: "The Settlement",
         continent: "Australia",
         region: {
-          latitude: 105.5336422,
-          longitude: -10.5698515,
-          latitudeDelta: 0.1793736999999993,
-          longitudeDelta: 0.15749620000000064,
+          latitude: -10.4911034,
+          longitude: 105.62332905,
+          latitudeDelta: 0.15749620000000064,
+          longitudeDelta: 0.1793736999999993,
         },
       },
       {
@@ -1877,10 +1823,10 @@ const Continents: {
         capital: "West Island",
         continent: "Australia",
         region: {
-          latitude: 96.612524,
-          longitude: -12.4055983,
-          latitudeDelta: 0.5232103000000023,
-          longitudeDelta: 0.7842851,
+          latitude: -12.013455749999999,
+          longitude: 96.87412914999999,
+          latitudeDelta: 0.7842851,
+          longitudeDelta: 0.5232103000000023,
         },
       },
       {
@@ -1888,10 +1834,10 @@ const Continents: {
         capital: "Avarua",
         continent: "Australia",
         region: {
-          latitude: -166.0856468,
-          longitude: -22.15807,
-          latitudeDelta: 8.976713899999993,
-          longitudeDelta: 13.4411908,
+          latitude: -15.437474599999998,
+          longitude: -161.59728985,
+          latitudeDelta: 13.4411908,
+          longitudeDelta: 8.976713899999993,
         },
       },
       {
@@ -1899,10 +1845,10 @@ const Continents: {
         capital: "Suva",
         continent: "Australia",
         region: {
-          latitude: -180,
-          longitude: -21.9434274,
-          latitudeDelta: 360,
-          longitudeDelta: 9.682040800000001,
+          latitude: -17.102407,
+          longitude: 0,
+          latitudeDelta: 9.682040800000001,
+          longitudeDelta: 360,
         },
       },
       {
@@ -1910,10 +1856,10 @@ const Continents: {
         capital: "Papeete",
         continent: "Australia",
         region: {
-          latitude: -154.9360599,
-          longitude: -28.0990232,
-          latitudeDelta: 20.691260900000003,
-          longitudeDelta: 20.439805900000003,
+          latitude: -17.87912025,
+          longitude: -144.59042945,
+          latitudeDelta: 20.439805900000003,
+          longitudeDelta: 20.691260900000003,
         },
       },
       {
@@ -1921,10 +1867,10 @@ const Continents: {
         capital: "Hagatna",
         continent: "Australia",
         region: {
-          latitude: 144.563426,
-          longitude: 13.182335,
-          latitudeDelta: 0.44574099999999817,
-          longitudeDelta: 0.5238440000000004,
+          latitude: 13.444257,
+          longitude: 144.7862965,
+          latitudeDelta: 0.5238440000000004,
+          longitudeDelta: 0.44574099999999817,
         },
       },
       {
@@ -1932,8 +1878,8 @@ const Continents: {
         capital: "Tarawa",
         continent: "Australia",
         region: {
-          latitude: -179.1645388,
-          longitude: -7.0516717,
+          latitude: 0.4483283,
+          longitude: -171.6645388,
           latitudeDelta: 15,
           longitudeDelta: 15,
         },
@@ -1943,8 +1889,8 @@ const Continents: {
         capital: "Majuro",
         continent: "Australia",
         region: {
-          latitude: 163.4985095,
-          longitude: -0.5481258,
+          latitude: 6.951874200000001,
+          longitude: 170.9985095,
           latitudeDelta: 15,
           longitudeDelta: 15,
         },
@@ -1954,10 +1900,10 @@ const Continents: {
         capital: "Palikir",
         continent: "Australia",
         region: {
-          latitude: 137.2234512,
-          longitude: 0.827,
-          latitudeDelta: 26.012954199999996,
-          longitudeDelta: 9.464,
+          latitude: 5.559,
+          longitude: 150.22992829999998,
+          latitudeDelta: 9.464,
+          longitudeDelta: 26.012954199999996,
         },
       },
       {
@@ -1965,10 +1911,10 @@ const Continents: {
         capital: "Noumea",
         continent: "Australia",
         region: {
-          latitude: -92.6876556,
-          longitude: 33.0351363,
-          latitudeDelta: 0.04000000000000625,
-          longitudeDelta: 0.03999999999999915,
+          latitude: 33.0551363,
+          longitude: -92.66765559999999,
+          latitudeDelta: 0.03999999999999915,
+          longitudeDelta: 0.04000000000000625,
         },
       },
       {
@@ -1976,10 +1922,10 @@ const Continents: {
         capital: "Wellington",
         continent: "Australia",
         region: {
-          latitude: -179.059153,
-          longitude: -52.8213687,
-          latitudeDelta: 358.42351240000005,
-          longitudeDelta: 23.7910384,
+          latitude: -40.9258495,
+          longitude: 0.1526032000000015,
+          latitudeDelta: 23.7910384,
+          longitudeDelta: 358.42351240000005,
         },
       },
       {
@@ -1987,10 +1933,10 @@ const Continents: {
         capital: "Alofi",
         continent: "Australia",
         region: {
-          latitude: -169.9383436,
-          longitude: -19.0840514,
-          latitudeDelta: 0.025376399999998966,
-          longitudeDelta: 0.010085300000000075,
+          latitude: -19.07900875,
+          longitude: -169.92565539999998,
+          latitudeDelta: 0.010085300000000075,
+          longitudeDelta: 0.025376399999998966,
         },
       },
       {
@@ -1998,10 +1944,10 @@ const Continents: {
         capital: "Kingston",
         continent: "Australia",
         region: {
-          latitude: 167.6873878,
-          longitude: -29.333,
-          latitudeDelta: 0.537566499999997,
-          longitudeDelta: 0.536999999999999,
+          latitude: -29.0645,
+          longitude: 167.95617105000002,
+          latitudeDelta: 0.536999999999999,
+          longitudeDelta: 0.537566499999997,
         },
       },
       {
@@ -2009,10 +1955,10 @@ const Continents: {
         capital: "Saipan",
         continent: "Australia",
         region: {
-          latitude: 144.813338,
-          longitude: 14.036565,
-          latitudeDelta: 1.3410800000000052,
-          longitudeDelta: 6.579991,
+          latitude: 17.3265605,
+          longitude: 145.483878,
+          latitudeDelta: 6.579991,
+          longitudeDelta: 1.3410800000000052,
         },
       },
       {
@@ -2020,10 +1966,10 @@ const Continents: {
         capital: "Melekeok",
         continent: "Australia",
         region: {
-          latitude: 2.9351868,
-          longitude: 42.5481153,
-          latitudeDelta: 0.04886500000000016,
-          longitudeDelta: 0.036313100000000986,
+          latitude: 42.56627185,
+          longitude: 2.9596193,
+          latitudeDelta: 0.036313100000000986,
+          longitudeDelta: 0.04886500000000016,
         },
       },
       {
@@ -2031,8 +1977,8 @@ const Continents: {
         capital: "Port Moresby",
         continent: "Australia",
         region: {
-          latitude: 136.7489081,
-          longitude: -13.1816069,
+          latitude: -5.6816069,
+          longitude: 144.2489081,
           latitudeDelta: 15,
           longitudeDelta: 15,
         },
@@ -2042,10 +1988,10 @@ const Continents: {
         capital: "Adamstown",
         continent: "Australia",
         region: {
-          latitude: -130.8049862,
-          longitude: -25.1306736,
-          latitudeDelta: 6.087452200000001,
-          longitudeDelta: 1.2650967000000009,
+          latitude: -24.49812525,
+          longitude: -127.7612601,
+          latitudeDelta: 1.2650967000000009,
+          longitudeDelta: 6.087452200000001,
         },
       },
       {
@@ -2053,10 +1999,10 @@ const Continents: {
         capital: "Apia",
         continent: "Australia",
         region: {
-          latitude: -124.2064518,
-          longitude: 40.7987372,
-          latitudeDelta: 0.03999999999999204,
-          longitudeDelta: 0.03999999999999915,
+          latitude: 40.8187372,
+          longitude: -124.1864518,
+          latitudeDelta: 0.03999999999999915,
+          longitudeDelta: 0.03999999999999204,
         },
       },
       {
@@ -2064,10 +2010,10 @@ const Continents: {
         capital: "Honiara",
         continent: "Australia",
         region: {
-          latitude: 155.3190556,
-          longitude: -13.2424298,
-          latitudeDelta: 15.077411099999978,
-          longitudeDelta: 8.4315798,
+          latitude: -9.0266399,
+          longitude: 162.85776115,
+          latitudeDelta: 8.4315798,
+          longitudeDelta: 15.077411099999978,
         },
       },
       {
@@ -2075,10 +2021,10 @@ const Continents: {
         capital: "Nuku'alofa",
         continent: "Australia",
         region: {
-          latitude: -179.3866055,
-          longitude: -24.1034499,
-          latitudeDelta: 5.857059700000008,
-          longitudeDelta: 8.7378777,
+          latitude: -19.734511050000002,
+          longitude: -176.45807565,
+          latitudeDelta: 8.7378777,
+          longitudeDelta: 5.857059700000008,
         },
       },
       {
@@ -2086,10 +2032,10 @@ const Continents: {
         capital: "Funafuti",
         continent: "Australia",
         region: {
-          latitude: -180,
-          longitude: -10.9939389,
-          latitudeDelta: 360,
-          longitudeDelta: 5.556977799999999,
+          latitude: -8.21545,
+          longitude: 0,
+          latitudeDelta: 5.556977799999999,
+          longitudeDelta: 360,
         },
       },
       {
@@ -2097,10 +2043,10 @@ const Continents: {
         capital: "Port-Vila",
         continent: "Australia",
         region: {
-          latitude: 166.3355255,
-          longitude: -20.4627425,
-          latitudeDelta: 4.114456500000017,
-          longitudeDelta: 7.591364800000001,
+          latitude: -16.6670601,
+          longitude: 168.39275375,
+          latitudeDelta: 7.591364800000001,
+          longitudeDelta: 4.114456500000017,
         },
       },
       {
@@ -2108,20 +2054,20 @@ const Continents: {
         capital: "Mata-Utu",
         continent: "Australia",
         region: {
-          latitude: -178.3873749,
-          longitude: -14.5630748,
-          latitudeDelta: 2.4683358000000055,
-          longitudeDelta: 1.580278700000001,
+          latitude: -13.77293545,
+          longitude: -177.153207,
+          latitudeDelta: 1.580278700000001,
+          longitudeDelta: 2.4683358000000055,
         },
       },
     ],
   },
   "North America": {
     region: {
-      latitude: 7.455018,
-      longitude: -168.232741,
-      latitudeDelta: 64.647597,
-      longitudeDelta: 114.257812,
+      latitude: 41.5,
+      longitude: -122,
+      latitudeDelta: 39,
+      longitudeDelta: 98,
     },
     countries: [
       {
@@ -2129,10 +2075,10 @@ const Continents: {
         capital: "Marigot",
         continent: "North America",
         region: {
-          latitude: -63.3605643,
-          longitude: 17.8963535,
-          latitudeDelta: 0.5961580000000026,
-          longitudeDelta: 0.29392430000000047,
+          latitude: 18.04331565,
+          longitude: -63.0624853,
+          latitudeDelta: 0.29392430000000047,
+          longitudeDelta: 0.5961580000000026,
         },
       },
       {
@@ -2140,10 +2086,10 @@ const Continents: {
         capital: "The Valley",
         continent: "North America",
         region: {
-          latitude: -63.6391992,
-          longitude: 18.0615454,
-          latitudeDelta: 0.9266543000000027,
-          longitudeDelta: 0.7335740000000008,
+          latitude: 18.428332400000002,
+          longitude: -63.175872049999995,
+          latitudeDelta: 0.7335740000000008,
+          longitudeDelta: 0.9266543000000027,
         },
       },
       {
@@ -2151,10 +2097,10 @@ const Continents: {
         capital: "Saint John's",
         continent: "North America",
         region: {
-          latitude: -62.5536517,
-          longitude: 16.7573901,
-          latitudeDelta: 1.1057947000000041,
-          longitudeDelta: 1.1716099,
+          latitude: 17.34319505,
+          longitude: -62.00075435,
+          latitudeDelta: 1.1716099,
+          longitudeDelta: 1.1057947000000041,
         },
       },
       {
@@ -2162,10 +2108,10 @@ const Continents: {
         capital: "Oranjestad",
         continent: "North America",
         region: {
-          latitude: -70.2809842,
-          longitude: 12.1702998,
-          latitudeDelta: 0.6400000000000006,
-          longitudeDelta: 0.6399999999999988,
+          latitude: 12.490299799999999,
+          longitude: -69.96098420000001,
+          latitudeDelta: 0.6399999999999988,
+          longitudeDelta: 0.6400000000000006,
         },
       },
       {
@@ -2173,10 +2119,10 @@ const Continents: {
         capital: "Nassau",
         continent: "North America",
         region: {
-          latitude: -80.7001941,
-          longitude: 20.7059846,
-          latitudeDelta: 8.252442000000002,
-          longitudeDelta: 6.767470499999998,
+          latitude: 24.08971985,
+          longitude: -76.5739731,
+          latitudeDelta: 6.767470499999998,
+          longitudeDelta: 8.252442000000002,
         },
       },
       {
@@ -2184,10 +2130,10 @@ const Continents: {
         capital: "Bridgetown",
         continent: "North America",
         region: {
-          latitude: -59.8562115,
-          longitude: 12.845,
-          latitudeDelta: 0.6414940000000016,
-          longitudeDelta: 0.6899999999999995,
+          latitude: 13.190000000000001,
+          longitude: -59.5354645,
+          latitudeDelta: 0.6899999999999995,
+          longitudeDelta: 0.6414940000000016,
         },
       },
       {
@@ -2195,10 +2141,10 @@ const Continents: {
         capital: "Hamilton",
         continent: "North America",
         region: {
-          latitude: -65.1232222,
-          longitude: 32.0469651,
-          latitudeDelta: 0.7122379999999993,
-          longitudeDelta: 0.5444041999999953,
+          latitude: 32.319167199999995,
+          longitude: -64.76710320000001,
+          latitudeDelta: 0.5444041999999953,
+          longitudeDelta: 0.7122379999999993,
         },
       },
       {
@@ -2206,10 +2152,10 @@ const Continents: {
         capital: "Road Town",
         continent: "North America",
         region: {
-          latitude: -65.159094,
-          longitude: 17.623468,
-          latitudeDelta: 0.646419999999992,
-          longitudeDelta: 0.8415160000000022,
+          latitude: 18.044226000000002,
+          longitude: -64.835884,
+          latitudeDelta: 0.8415160000000022,
+          longitudeDelta: 0.646419999999992,
         },
       },
       {
@@ -2217,10 +2163,10 @@ const Continents: {
         capital: "George Town",
         continent: "North America",
         region: {
-          latitude: -81.6313748,
-          longitude: 19.0620619,
-          latitudeDelta: 2.120279400000001,
-          longitudeDelta: 0.895313999999999,
+          latitude: 19.5097189,
+          longitude: -80.5712351,
+          latitudeDelta: 0.895313999999999,
+          longitudeDelta: 2.120279400000001,
         },
       },
       {
@@ -2228,10 +2174,10 @@ const Continents: {
         capital: "Havana",
         continent: "North America",
         region: {
-          latitude: -85.1679702,
-          longitude: 19.6275294,
-          latitudeDelta: 11.248969799999998,
-          longitudeDelta: 3.854167799999999,
+          latitude: 21.5546133,
+          longitude: -79.5434853,
+          latitudeDelta: 3.854167799999999,
+          longitudeDelta: 11.248969799999998,
         },
       },
       {
@@ -2239,10 +2185,10 @@ const Continents: {
         capital: "Roseau",
         continent: "North America",
         region: {
-          latitude: -61.6869184,
-          longitude: 15.0074207,
-          latitudeDelta: 0.6539289000000039,
-          longitudeDelta: 0.7798014999999996,
+          latitude: 15.39732145,
+          longitude: -61.359953950000005,
+          latitudeDelta: 0.7798014999999996,
+          longitudeDelta: 0.6539289000000039,
         },
       },
       {
@@ -2250,10 +2196,10 @@ const Continents: {
         capital: "Santo Domingo",
         continent: "North America",
         region: {
-          latitude: -72.0574706,
-          longitude: 17.2701708,
-          latitudeDelta: 3.9473243000000053,
-          longitudeDelta: 4.033262199999999,
+          latitude: 19.2868019,
+          longitude: -70.08380844999999,
+          latitudeDelta: 4.033262199999999,
+          longitudeDelta: 3.9473243000000053,
         },
       },
       {
@@ -2261,10 +2207,10 @@ const Continents: {
         capital: "Saint George's",
         continent: "North America",
         region: {
-          latitude: -62.0065868,
-          longitude: 11.786,
-          latitudeDelta: 0.833372500000003,
-          longitudeDelta: 0.8106532000000009,
+          latitude: 12.1913266,
+          longitude: -61.589900549999996,
+          latitudeDelta: 0.8106532000000009,
+          longitudeDelta: 0.833372500000003,
         },
       },
       {
@@ -2272,10 +2218,10 @@ const Continents: {
         capital: "Port-au-Prince",
         continent: "North America",
         region: {
-          latitude: -78.1147805,
-          longitude: 21.7470269,
-          latitudeDelta: 0.03999999999999204,
-          longitudeDelta: 0.03999999999999915,
+          latitude: 21.7670269,
+          longitude: -78.0947805,
+          latitudeDelta: 0.03999999999999915,
+          longitudeDelta: 0.03999999999999204,
         },
       },
       {
@@ -2283,10 +2229,10 @@ const Continents: {
         capital: "Kingston",
         continent: "North America",
         region: {
-          latitude: -78.5782366,
-          longitude: 16.5899443,
-          latitudeDelta: 2.824122299999999,
-          longitudeDelta: 2.1356950999999995,
+          latitude: 17.65779185,
+          longitude: -77.16617545,
+          latitudeDelta: 2.1356950999999995,
+          longitudeDelta: 2.824122299999999,
         },
       },
       {
@@ -2294,10 +2240,10 @@ const Continents: {
         capital: "Plymouth",
         continent: "North America",
         region: {
-          latitude: -62.450667,
-          longitude: 16.475,
-          latitudeDelta: 0.515285200000001,
-          longitudeDelta: 0.5402977999999976,
+          latitude: 16.7451489,
+          longitude: -62.1930244,
+          latitudeDelta: 0.5402977999999976,
+          longitudeDelta: 0.515285200000001,
         },
       },
       {
@@ -2305,10 +2251,10 @@ const Continents: {
         capital: "San Juan",
         continent: "North America",
         region: {
-          latitude: -67.271492,
-          longitude: 17.9268695,
-          latitudeDelta: 1.681739499999992,
-          longitudeDelta: 0.5891094000000017,
+          latitude: 18.2214242,
+          longitude: -66.43062225,
+          latitudeDelta: 0.5891094000000017,
+          longitudeDelta: 1.681739499999992,
         },
       },
       {
@@ -2316,10 +2262,10 @@ const Continents: {
         capital: "Gustavia",
         continent: "North America",
         region: {
-          latitude: -63.06639,
-          longitude: 17.670931,
-          latitudeDelta: 0.48198809999999526,
-          longitudeDelta: 0.46662590000000037,
+          latitude: 17.90424395,
+          longitude: -62.82539595,
+          latitudeDelta: 0.46662590000000037,
+          longitudeDelta: 0.48198809999999526,
         },
       },
       {
@@ -2327,10 +2273,10 @@ const Continents: {
         capital: "Basseterre",
         continent: "North America",
         region: {
-          latitude: -63.051129,
-          longitude: 16.895,
-          latitudeDelta: 0.7207771000000065,
-          longitudeDelta: 0.7208146000000006,
+          latitude: 17.2554073,
+          longitude: -62.69074045,
+          latitudeDelta: 0.7208146000000006,
+          longitudeDelta: 0.7207771000000065,
         },
       },
       {
@@ -2338,10 +2284,10 @@ const Continents: {
         capital: "Castries",
         continent: "North America",
         region: {
-          latitude: -61.2853867,
-          longitude: 13.508,
-          latitudeDelta: 0.6184503999999933,
-          longitudeDelta: 0.7645000000000017,
+          latitude: 13.89025,
+          longitude: -60.9761615,
+          latitudeDelta: 0.7645000000000017,
+          longitudeDelta: 0.6184503999999933,
         },
       },
       {
@@ -2349,10 +2295,10 @@ const Continents: {
         capital: "Port of Spain",
         continent: "North America",
         region: {
-          latitude: -62.083056,
-          longitude: 9.8732106,
-          latitudeDelta: 1.793471199999999,
-          longitudeDelta: 1.6896266000000004,
+          latitude: 10.7180239,
+          longitude: -61.1863204,
+          latitudeDelta: 1.6896266000000004,
+          longitudeDelta: 1.793471199999999,
         },
       },
       {
@@ -2360,10 +2306,10 @@ const Continents: {
         capital: "Grand Turk",
         continent: "North America",
         region: {
-          latitude: -72.6799046,
-          longitude: 20.9553418,
-          latitudeDelta: 1.815545499999999,
-          longitudeDelta: 1.207757100000002,
+          latitude: 21.55922035,
+          longitude: -71.77213185,
+          latitudeDelta: 1.207757100000002,
+          longitudeDelta: 1.815545499999999,
         },
       },
       {
@@ -2371,10 +2317,10 @@ const Continents: {
         capital: "Charlotte Amalie",
         continent: "North America",
         region: {
-          latitude: -65.159094,
-          longitude: 17.623468,
-          latitudeDelta: 0.646419999999992,
-          longitudeDelta: 0.8415160000000022,
+          latitude: 18.044226000000002,
+          longitude: -64.835884,
+          latitudeDelta: 0.8415160000000022,
+          longitudeDelta: 0.646419999999992,
         },
       },
       {
@@ -2382,20 +2328,20 @@ const Continents: {
         capital: "Washington",
         continent: "US",
         region: {
-          latitude: -125.0011,
-          longitude: 24.9493,
-          latitudeDelta: 58.0685,
-          longitudeDelta: 24.6411,
+          latitude: 37.269850000000005,
+          longitude: -95.96685,
+          latitudeDelta: 24.6411,
+          longitudeDelta: 58.0685,
         },
       },
     ],
   },
   "South America": {
     region: {
-      latitude: 7.455018,
-      longitude: -168.232741,
-      latitudeDelta: 64.647597,
-      longitudeDelta: 114.257812,
+      latitude: -21.5,
+      longitude: -56,
+      latitudeDelta: 67,
+      longitudeDelta: 56,
     },
     countries: [
       {
@@ -2403,10 +2349,10 @@ const Continents: {
         capital: "Buenos Aires",
         continent: "South America",
         region: {
-          latitude: -73.5600329,
-          longitude: -55.1850761,
-          latitudeDelta: 19.9225814,
-          longitudeDelta: 33.4039081,
+          latitude: -38.483122050000006,
+          longitude: -63.5987422,
+          latitudeDelta: 33.4039081,
+          longitudeDelta: 19.9225814,
         },
       },
       {
@@ -2414,10 +2360,10 @@ const Continents: {
         capital: "La Paz",
         continent: "South America",
         region: {
-          latitude: -69.6450073,
-          longitude: -22.8982742,
-          latitudeDelta: 12.1920073,
-          longitudeDelta: 13.2293304,
+          latitude: -16.283609,
+          longitude: -63.54900365,
+          latitudeDelta: 13.2293304,
+          longitudeDelta: 12.1920073,
         },
       },
       {
@@ -2425,10 +2371,10 @@ const Continents: {
         capital: "Brasilia",
         continent: "South America",
         region: {
-          latitude: -73.9830625,
-          longitude: -33.8689056,
-          latitudeDelta: 45.348946100000006,
-          longitudeDelta: 39.1531929,
+          latitude: -14.29230915,
+          longitude: -51.30858945,
+          latitudeDelta: 39.1531929,
+          longitudeDelta: 45.348946100000006,
         },
       },
       {
@@ -2436,10 +2382,10 @@ const Continents: {
         capital: "Santiago",
         continent: "South America",
         region: {
-          latitude: -109.6795789,
-          longitude: -56.725,
-          latitudeDelta: 43.6042315,
-          longitudeDelta: 39.2266002,
+          latitude: -37.111699900000005,
+          longitude: -87.87746315,
+          latitudeDelta: 39.2266002,
+          longitudeDelta: 43.6042315,
         },
       },
       {
@@ -2447,10 +2393,10 @@ const Continents: {
         capital: "Bogota",
         continent: "South America",
         region: {
-          latitude: -82.1243666,
-          longitude: -4.2316872,
-          latitudeDelta: 15.273175899999998,
-          longitudeDelta: 20.2888141,
+          latitude: 5.91271985,
+          longitude: -74.48777865,
+          latitudeDelta: 20.2888141,
+          longitudeDelta: 15.273175899999998,
         },
       },
       {
@@ -2458,10 +2404,10 @@ const Continents: {
         capital: "Quito",
         continent: "South America",
         region: {
-          latitude: -92.2072392,
-          longitude: -5.0159314,
-          latitudeDelta: 17.014735200000004,
-          longitudeDelta: 6.8995278,
+          latitude: -1.5661675000000002,
+          longitude: -83.6998716,
+          latitudeDelta: 6.8995278,
+          longitudeDelta: 17.014735200000004,
         },
       },
       {
@@ -2469,10 +2415,10 @@ const Continents: {
         capital: "Stanley",
         continent: "South America",
         region: {
-          latitude: -61.7726772,
-          longitude: -53.1186766,
-          latitudeDelta: 4.406440499999995,
-          longitudeDelta: 2.3213758999999996,
+          latitude: -51.957988650000004,
+          longitude: -59.56945695,
+          latitudeDelta: 2.3213758999999996,
+          longitudeDelta: 4.406440499999995,
         },
       },
       {
@@ -2480,10 +2426,10 @@ const Continents: {
         capital: "Georgetown",
         continent: "South America",
         region: {
-          latitude: -61.414905,
-          longitude: 1.1710017,
-          latitudeDelta: 4.945950699999997,
-          longitudeDelta: 7.4328825,
+          latitude: 4.88744295,
+          longitude: -58.94192965,
+          latitudeDelta: 7.4328825,
+          longitudeDelta: 4.945950699999997,
         },
       },
       {
@@ -2491,10 +2437,10 @@ const Continents: {
         capital: "Asuncion",
         continent: "South America",
         region: {
-          latitude: -62.6442036,
-          longitude: -27.6063935,
-          latitudeDelta: 8.386203599999995,
-          longitudeDelta: 8.3187463,
+          latitude: -23.44702035,
+          longitude: -58.4511018,
+          latitudeDelta: 8.3187463,
+          longitudeDelta: 8.386203599999995,
         },
       },
       {
@@ -2502,10 +2448,10 @@ const Continents: {
         capital: "Lima",
         continent: "South America",
         region: {
-          latitude: -89.164781,
-          longitude: 41.309511,
-          latitudeDelta: 0.059128999999998655,
-          longitudeDelta: 0.07245900000000205,
+          latitude: 41.345740500000005,
+          longitude: -89.13521650000001,
+          latitudeDelta: 0.07245900000000205,
+          longitudeDelta: 0.059128999999998655,
         },
       },
       {
@@ -2513,10 +2459,10 @@ const Continents: {
         capital: "Paramaribo",
         continent: "South America",
         region: {
-          latitude: -58.070833,
-          longitude: 1.8312802,
-          latitudeDelta: 4.227497200000002,
-          longitudeDelta: 4.3937197999999995,
+          latitude: 4.0281401,
+          longitude: -55.9570844,
+          latitudeDelta: 4.3937197999999995,
+          longitudeDelta: 4.227497200000002,
         },
       },
       {
@@ -2524,10 +2470,10 @@ const Continents: {
         capital: "Montevideo",
         continent: "South America",
         region: {
-          latitude: -58.4948438,
-          longitude: -35.7824481,
-          latitudeDelta: 5.4192605,
-          longitudeDelta: 5.697051900000002,
+          latitude: -32.93392215,
+          longitude: -55.785213549999995,
+          latitudeDelta: 5.697051900000002,
+          longitudeDelta: 5.4192605,
         },
       },
       {
@@ -2535,20 +2481,20 @@ const Continents: {
         capital: "Caracas",
         continent: "South America",
         region: {
-          latitude: -73.3529632,
-          longitude: 0.647529,
-          latitudeDelta: 13.810255300000001,
-          longitudeDelta: 15.2683141,
+          latitude: 8.28168605,
+          longitude: -66.44783555000001,
+          latitudeDelta: 15.2683141,
+          longitudeDelta: 13.810255300000001,
         },
       },
     ],
   },
   "Central America": {
     region: {
-      latitude: -5.266008,
-      longitude: -95.273438,
-      latitudeDelta: 29.793143,
-      longitudeDelta: 66.796875,
+      latitude: 17.5,
+      longitude: -95,
+      latitudeDelta: 19,
+      longitudeDelta: 44,
     },
     countries: [
       {
@@ -2556,10 +2502,10 @@ const Continents: {
         capital: "Belmopan",
         continent: "Central America",
         region: {
-          latitude: -89.2262083,
-          longitude: 15.8857286,
-          latitudeDelta: 1.9163588999999916,
-          longitudeDelta: 2.6102723999999995,
+          latitude: 17.1908648,
+          longitude: -88.26802885000001,
+          latitudeDelta: 2.6102723999999995,
+          longitudeDelta: 1.9163588999999916,
         },
       },
       {
@@ -2567,10 +2513,10 @@ const Continents: {
         capital: "San Jose",
         continent: "Central America",
         region: {
-          latitude: -87.2722647,
-          longitude: 5.3329698,
-          latitudeDelta: 4.766243899999992,
-          longitudeDelta: 5.8865986,
+          latitude: 8.2762691,
+          longitude: -84.88914274999999,
+          latitudeDelta: 5.8865986,
+          longitudeDelta: 4.766243899999992,
         },
       },
       {
@@ -2578,10 +2524,10 @@ const Continents: {
         capital: "San Salvador",
         continent: "Central America",
         region: {
-          latitude: -90.1790975,
-          longitude: 12.976046,
-          latitudeDelta: 2.5439580999999976,
-          longitudeDelta: 1.4750028000000004,
+          latitude: 13.7135474,
+          longitude: -88.90711845,
+          latitudeDelta: 1.4750028000000004,
+          longitudeDelta: 2.5439580999999976,
         },
       },
       {
@@ -2589,10 +2535,10 @@ const Continents: {
         capital: "Nuuk",
         continent: "Central America",
         region: {
-          latitude: -70.907562,
-          longitude: 43.0015105,
-          latitudeDelta: 0.10176099999999622,
-          longitudeDelta: 0.07558259999999706,
+          latitude: 43.039301800000004,
+          longitude: -70.85668150000001,
+          latitudeDelta: 0.07558259999999706,
+          longitudeDelta: 0.10176099999999622,
         },
       },
       {
@@ -2600,10 +2546,10 @@ const Continents: {
         capital: "Guatemala City",
         continent: "Central America",
         region: {
-          latitude: -92.3105242,
-          longitude: 13.6345804,
-          latitudeDelta: 4.134939299999999,
-          longitudeDelta: 4.182014299999999,
+          latitude: 15.72558755,
+          longitude: -90.24305455000001,
+          latitudeDelta: 4.182014299999999,
+          longitudeDelta: 4.134939299999999,
         },
       },
       {
@@ -2611,10 +2557,10 @@ const Continents: {
         capital: "Tegucigalpa",
         continent: "Central America",
         region: {
-          latitude: -89.3568207,
-          longitude: 12.9808485,
-          latitudeDelta: 7.1838585999999935,
-          longitudeDelta: 4.6386775,
+          latitude: 15.30018725,
+          longitude: -85.76489140000001,
+          latitudeDelta: 4.6386775,
+          longitudeDelta: 7.1838585999999935,
         },
       },
       {
@@ -2622,10 +2568,10 @@ const Continents: {
         capital: "Mexico City",
         continent: "Central America",
         region: {
-          latitude: -99.2933416,
-          longitude: 19.2726009,
-          latitudeDelta: 0.3200000000000074,
-          longitudeDelta: 0.3200000000000003,
+          latitude: 19.4326009,
+          longitude: -99.1333416,
+          latitudeDelta: 0.3200000000000003,
+          longitudeDelta: 0.3200000000000074,
         },
       },
       {
@@ -2633,10 +2579,10 @@ const Continents: {
         capital: "Managua",
         continent: "Central America",
         region: {
-          latitude: -87.901532,
-          longitude: 10.7076565,
-          latitudeDelta: 5.278829700000003,
-          longitudeDelta: 4.325461799999999,
+          latitude: 12.8703874,
+          longitude: -85.26211715,
+          latitudeDelta: 4.325461799999999,
+          longitudeDelta: 5.278829700000003,
         },
       },
       {
@@ -2644,10 +2590,10 @@ const Continents: {
         capital: "Panama City",
         continent: "Central America",
         region: {
-          latitude: -119.0767707,
-          longitude: 35.246906,
-          latitudeDelta: 0.03999999999999204,
-          longitudeDelta: 0.03999999999999915,
+          latitude: 35.266906000000006,
+          longitude: -119.0567707,
+          latitudeDelta: 0.03999999999999915,
+          longitudeDelta: 0.03999999999999204,
         },
       },
       {
@@ -2655,10 +2601,10 @@ const Continents: {
         capital: "Saint-Pierre",
         continent: "Central America",
         region: {
-          latitude: -56.6972961,
-          longitude: 46.5507173,
-          latitudeDelta: 0.7939628000000027,
-          longitudeDelta: 0.8142826999999997,
+          latitude: 46.957858650000006,
+          longitude: -56.3003147,
+          latitudeDelta: 0.8142826999999997,
+          longitudeDelta: 0.7939628000000027,
         },
       },
       {
@@ -2666,10 +2612,10 @@ const Continents: {
         capital: "Kingstown",
         continent: "Central America",
         region: {
-          latitude: -61.6657471,
-          longitude: 12.5166548,
-          latitudeDelta: 0.7563324999999992,
-          longitudeDelta: 1.0663452000000007,
+          latitude: 13.0498274,
+          longitude: -61.28758085,
+          latitudeDelta: 1.0663452000000007,
+          longitudeDelta: 0.7563324999999992,
         },
       },
     ],
