@@ -6,7 +6,7 @@ import { Text, View, ScrollView } from "../components/Themed";
 import WorldMap from "../components/WorldMap";
 import { Region } from "react-native-maps";
 
-export default function ChallengesScreen({ navigation }) {
+export default function ChallengesTab({ navigation }) {
   const handleSelectChallenge = (continent: string) => {
     navigation.navigate("Challenge", {
       continent,

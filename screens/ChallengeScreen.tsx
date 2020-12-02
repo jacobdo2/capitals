@@ -4,7 +4,7 @@ import { RouteProp } from "@react-navigation/native";
 import { Platform, Pressable, StyleSheet } from "react-native";
 
 import { Text, View } from "../components/Themed";
-import WorldMap from '../components/WorldMap';
+import WorldMap from "../components/WorldMap";
 import { TabOneParamList } from "../types";
 import Continents from "../constants/Continents";
 import GameMode from "../constants/GameMode.enum";
@@ -16,7 +16,7 @@ type Props = {
   route: RouteProp<TabOneParamList, "Challenge">;
 };
 
-export default function ChallangeScreen({ navigation, route }: Props) {
+export default function ChallengeScreen({ navigation, route }: Props) {
   const { continent } = route.params;
   const dispatch = useDispatch();
 

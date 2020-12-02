@@ -6,6 +6,8 @@ import Continents from "../constants/Continents";
 import secondsToTimer from "../utils/secondsToTimer";
 import { ScrollView } from "../components/Themed";
 import CountryItem from "../components/CountryItem";
+import WorldMap from "../components/WorldMap";
+
 export default function GameSummaryScreen({ navigation, route }) {
   const {
     params: { id },
@@ -36,17 +38,22 @@ export default function GameSummaryScreen({ navigation, route }) {
       {summary?.answers && countries && (
         <>
           <View style={styles.banner}>
-            <Text>{summary.continent}</Text>
-            <Text>{countries.length} countries</Text>
+            <WorldMap region={Continents[summary.continent].region} />
+            <Text style={styles.bannerTitle}>{summary.continent}</Text>
+            <Text style={styles.bannerSubtitle}>
+              {countries.length} countries
+            </Text>
           </View>
 
           <View style={styles.totals}>
             <View>
-              <Text>{secondsToTimer(Number(summary.duration))}</Text>
-              <Text>Duration</Text>
+              <Text style={styles.totalsNumber}>
+                {secondsToTimer(Number(summary.duration))}
+              </Text>
+              <Text style={styles.totalsText}>Duration</Text>
             </View>
             <View>
-              <Text>
+              <Text style={styles.totalsNumber}>
                 {
                   Object.entries(summary.answers).filter(([c, a]) => {
                     return (
@@ -57,7 +64,7 @@ export default function GameSummaryScreen({ navigation, route }) {
                 }
                 /{countries.length}
               </Text>
-              <Text>Score</Text>
+              <Text style={styles.totalsText}>Score</Text>
             </View>
           </View>
 
@@ -83,9 +90,38 @@ const styles = StyleSheet.create({
   },
   banner: {
     flex: 0.5,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  bannerTitle: {
+    fontSize: 32,
+    fontWeight: "bold",
+    color: "white",
+  },
+  bannerSubtitle: {
+    fontSize: 12,
+    color: "white",
+    fontWeight: "400",
   },
   totals: {
     flex: 0,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+    paddingVertical: 24,
+  },
+  totalsNumber: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "black",
+    textAlign: "center",
+  },
+  totalsText: {
+    fontSize: 12,
+    fontWeight: "400",
+    color: "gray",
+    textAlign: "center",
   },
   answerList: {
     flex: 10,
