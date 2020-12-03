@@ -2,6 +2,7 @@ import { ActionType } from "./action-type";
 
 const INITIAL_STATE = {
   continent: undefined,
+  gameSummaryId: undefined,
 };
 
 const gameReducer = (
@@ -13,6 +14,12 @@ const gameReducer = (
       return {
         ...state,
         continent: action.payload.continent,
+      };
+    case ActionType.SET_GAME_SUMMARY_ID:
+      console.log(action.payload.id);
+      return {
+        ...state,
+        gameSummaryId: action.payload.id,
       };
     default:
       return state;

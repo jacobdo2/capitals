@@ -9,10 +9,10 @@ export default async function getAnswerById(id: string): Promise<Answers> {
 
   console.log({ answers });
 
-  const answer = await answers[id];
+  const answer = answers[id];
 
   if (!answer) {
-    throw new Error(`answer set ${id} was not found`);
+    throw new Error(`${id} was not found`);
   }
 
   return answer;

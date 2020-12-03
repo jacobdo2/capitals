@@ -8,3 +8,12 @@ export const setContinent = (continent: string) => {
     },
   };
 };
+
+export const setGameSummaryId = (id: string) => {
+  return {
+    type: ActionType.SET_GAME_SUMMARY_ID,
+    payload: {
+      id,
+    },
+  };
+};

@@ -12,8 +12,9 @@ import storeSummary from "../utils/storeSummary";
 import { useDimensions } from "@react-native-community/hooks";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scrollview";
 import { Form as AutoFocusForm } from "react-native-autofocus";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import WorldMap from "../components/WorldMap";
+import { setGameSummaryId } from "../redux/game/action";
 
 type Props = {
   navigation: StackNavigationProp<any, "Game">;
@@ -22,6 +23,7 @@ type Props = {
 
 export default function GameScreen({ navigation, route }: Props) {
   const state = useSelector((state) => state);
+  const dispatch = useDispatch();
   const { continent: continentName } = useSelector((state) => state.game);
 
   const { height } = useDimensions().window;
@@ -55,9 +57,10 @@ export default function GameScreen({ navigation, route }: Props) {
       answers,
       duration: secondsElapsed,
     });
-    navigation.navigate("Summary", {
-      id,
+    navigation.navigate("Activity", {
+      screen: "Summary",
     });
+    dispatch(setGameSummaryId(id));
   }, [answers, secondsElapsed]);
 
   /** Timer */

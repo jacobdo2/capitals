@@ -7,11 +7,10 @@ import secondsToTimer from "../utils/secondsToTimer";
 import { ScrollView } from "../components/Themed";
 import CountryItem from "../components/CountryItem";
 import WorldMap from "../components/WorldMap";
+import { useSelector } from "react-redux";
 
-export default function GameSummaryScreen({ navigation, route }) {
-  const {
-    params: { id },
-  } = route;
+export default function GameSummaryScreen({ navigation }) {
+  const { gameSummaryId: id } = useSelector((state) => state.game);
 
   const [summary, setSummary] = useState<Answers | undefined>();
   const [countries, setCountries] = useState<Country[] | undefined>();
@@ -22,8 +21,8 @@ export default function GameSummaryScreen({ navigation, route }) {
   };
 
   useEffect(() => {
-    getSummary();
-  }, []);
+    id && getSummary();
+  }, [id]);
 
   useEffect(() => {
     if (!summary) {
