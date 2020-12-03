@@ -30,7 +30,9 @@ export default function GameScreen({ navigation, route }: Props) {
   const [countries, setCountries] = useState<Country[]>([]);
   const [secondsElapsed, setSecondsElapsed] = useState<number>(0);
   const [focused, setFocused] = useState<Country | undefined>(countries[0]);
-  const [region, setRegion] = useState<Region | undefined>(Continents[continentName].region);
+  const [region, setRegion] = useState<Region | undefined>(
+    Continents[continentName].region
+  );
   const gameStart = new Date();
 
   const handleAnswer = (country: Country, answer: string) => {
@@ -71,13 +73,14 @@ export default function GameScreen({ navigation, route }: Props) {
 
   /** Set country list */
   useEffect(() => {
-    continentName && setCountries(shuffleCountries(Continents[continentName].countries));
+    continentName &&
+      setCountries(shuffleCountries(Continents[continentName].countries));
   }, [continentName]);
 
   /** Update focused country */
   useEffect(() => {
     setBannerLabel(focused ? focused.name : "Select country");
-    setRegion(focused ? focused.region : Continents[continentName].region)
+    setRegion(focused ? focused.region : Continents[continentName].region);
   }, [focused]);
 
   return (

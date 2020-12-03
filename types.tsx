@@ -26,6 +26,7 @@ export type TabOneParamList = {
 
 export type ActivityTabParamList = {
   Activity: undefined;
+  Summary: undefined;
 };
 
 export type TabThreeParamList = {

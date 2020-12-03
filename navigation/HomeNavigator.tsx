@@ -15,7 +15,7 @@ import {
   HomeNavigatorParamList,
 } from "../types";
 import { Feather } from "@expo/vector-icons";
-import GameSummary from "../screens/GameSummaryScreen";
+import GameSummaryScreen from "../screens/GameSummaryScreen";
 
 const BottomTab = createBottomTabNavigator<HomeNavigatorParamList>();
 
@@ -82,9 +82,13 @@ const ActivityTabStack = createStackNavigator<ActivityTabParamList>();
 function ActivityTabNavigator() {
   return (
     <ActivityTabStack.Navigator>
+      <ActivityTabStack.Screen name="Activity" component={ActivityTabScreen} />
       <ActivityTabStack.Screen
-        name="Activity"
-        component={ActivityTabScreen}
+        name="Summary"
+        component={GameSummaryScreen}
+        options={{
+          headerLeft: () => undefined,
+        }}
       />
     </ActivityTabStack.Navigator>
   );
@@ -95,10 +99,7 @@ const TabThreeStack = createStackNavigator<TabThreeParamList>();
 function TabThreeNavigator() {
   return (
     <TabThreeStack.Navigator>
-      <TabThreeStack.Screen
-        name="Settings"
-        component={ActivityTabScreen}
-      />
+      <TabThreeStack.Screen name="Settings" component={ActivityTabScreen} />
     </TabThreeStack.Navigator>
   );
 }
